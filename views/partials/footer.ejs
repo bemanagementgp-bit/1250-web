@@ -61,12 +61,4 @@
   </section>
 </footer>
 
-<script src="/vendor/gsap/gsap.min.js"></script>
-<script src="/vendor/gsap/ScrollTrigger.min.js"></script>
-<script src="/vendor/gsap/SplitText.min.js"></script>
-<script src="/vendor/gsap/Flip.min.js"></script>
-<script src="/vendor/lenis/lenis.min.js"></script>
-<script>window.I18N = <%- JSON.stringify({ copy: t.contact.copy, copied: t.contact.copied, sending: t.contact.sending, sent: t.contact.sent, retry: t.contact.retry, submit: t.contact.submit }) %>;</script>
-<script src="/js/main.js" type="module"></script>
-</body>
-</html>
+<%- include('scripts') %>

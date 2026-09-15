@@ -10,8 +10,12 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="<%= t.locale %>">
   <meta property="og:image" content="<%= locals.ogImage || '/media/1250-1080.jpg' %>">
+  <% if (locals.noindex) { %>
+  <meta name="robots" content="noindex, nofollow">
+  <% } else { %>
   <link rel="alternate" hreflang="es" href="<%= alt.es %>">
   <link rel="alternate" hreflang="en" href="<%= alt.en %>">
+  <% } %>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,4 +39,4 @@
   <div class="cursor" aria-hidden="true"></div>
   <div class="cursor-follower" aria-hidden="true"><span><%= t.cursor.view %></span></div>
 
-  <%- include('header') %>
+  <%- include(locals.landing ? 'header-landing' : 'header') %>

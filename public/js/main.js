@@ -410,13 +410,17 @@ function initAbout() {
 }
 
 /* ---------------------------------------------------------------- Servicio 360 */
-function initService() {
+function initAnchors() {
   $$('[data-anchor]').forEach((a) => a.addEventListener('click', (e) => {
     const target = $(a.getAttribute('href'));
     if (!target) return;
     e.preventDefault();
-    lenis ? lenis.scrollTo(target, { duration: 1.6 }) : target.scrollIntoView({ behavior: 'smooth' });
+    lenis ? lenis.scrollTo(target, { duration: 1.6, offset: -20 }) : target.scrollIntoView({ behavior: 'smooth' });
   }));
+}
+
+function initService() {
+  initAnchors();
 
   const orbit = $('[data-orbit]');
   if (orbit && !reduced) {
@@ -424,9 +428,15 @@ function initService() {
     gsap.to(orbit, { rotate: 90, yPercent: 20, ease: 'none', scrollTrigger: { trigger: '[data-service-hero]', start: 'top top', end: 'bottom top', scrub: true } });
   }
 
-  // La línea avanza con el scroll y va encendiendo cada paso del ciclo.
+  initMethod();
+}
+
+// Línea de progreso que avanza con el scroll y va encendiendo cada paso.
+// data-method="vertical" la mantiene vertical en todos los tamaños.
+function initMethod() {
   const method = $('[data-method]');
   if (!method) return;
+  const alwaysVertical = method.dataset.method === 'vertical';
   const line = $('[data-method-line]', method);
   const steps = $$('[data-step]', method);
   const mm = gsap.matchMedia();
@@ -446,11 +456,168 @@ function initService() {
     });
   };
 
-  mm.add('(min-width: 1280px)', () => build('scaleX'));
-  mm.add('(max-width: 1279px)', () => build('scaleY'));
+  if (alwaysVertical) {
+    build('scaleY');
+  } else {
+    mm.add('(min-width: 1280px)', () => build('scaleX'));
+    mm.add('(max-width: 1279px)', () => build('scaleY'));
+  }
 
   if (reduced) steps.forEach((s) => s.classList.add('is-active'));
   else gsap.from(steps, { y: 50, opacity: 0, stagger: 0.1, duration: 1.2, scrollTrigger: { trigger: $('ol', method), start: 'top 85%' } });
+}
+
+/* ---------------------------------------------------------------- Landing espacios */
+function initLanding() {
+  initAnchors();
+  initMethod();
+
+  // Tira de locales: se desplaza en horizontal con el scroll.
+  const strip = $('[data-lp-strip-track]');
+  if (strip && !reduced) {
+    gsap.fromTo(strip, { x: 0 }, {
+      x: () => -Math.max(0, strip.scrollWidth - window.innerWidth),
+      ease: 'none',
+      scrollTrigger: { trigger: '[data-lp-strip]', start: 'top bottom', end: 'bottom top', scrub: true, invalidateOnRefresh: true },
+    });
+  }
+
+  // Rubros: al pasar o tocar cada rubro cambia la imagen; en móvil rota solo.
+  const sectors = $$('[data-sector]');
+  const images = $$('[data-sector-img]');
+  if (sectors.length) {
+    let current = 0;
+    let timer = null;
+    const show = (i) => {
+      if (i === current) return;
+      sectors.forEach((b, k) => b.setAttribute('aria-pressed', String(k === i)));
+      gsap.to(images[current], { opacity: 0, duration: 0.6, ease: 'power2.out' });
+      gsap.fromTo(images[i], { opacity: 0, scale: 1.08 }, { opacity: 1, scale: 1, duration: 1.1 });
+      current = i;
+    };
+    sectors.forEach((b, i) => {
+      b.addEventListener('pointerenter', () => { stopAuto(); show(i); });
+      b.addEventListener('click', () => { stopAuto(); show(i); });
+      b.addEventListener('focus', () => show(i));
+    });
+    const stopAuto = () => { clearInterval(timer); timer = null; };
+    if (!reduced) {
+      ScrollTrigger.create({
+        trigger: '[data-sectors]',
+        start: 'top 70%',
+        end: 'bottom 30%',
+        onToggle: (self) => {
+          stopAuto();
+          if (self.isActive && !finePointer) timer = setInterval(() => show((current + 1) % sectors.length), 2600);
+        },
+      });
+    }
+  }
+
+  // CTA fijo en móvil: aparece después del hero y se oculta al llegar al formulario.
+  const sticky = $('[data-sticky-cta]');
+  if (sticky) {
+    const toggleSticky = (visible) => sticky.classList.toggle('translate-y-[150%]', !visible);
+    ScrollTrigger.create({
+      trigger: '[data-hero]',
+      start: 'bottom 80%',
+      endTrigger: '#contacto',
+      end: 'top bottom',
+      onToggle: (self) => toggleSticky(self.isActive),
+    });
+  }
+
+  // Formulario de leads
+  const form = $('[data-lead-form]');
+  if (!form) return;
+  const L = window.LANDING || {};
+  const params = new URLSearchParams(location.search);
+  ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'gclid', 'fbclid'].forEach((k) => {
+    const stored = (() => { try { return sessionStorage.getItem(`lp_${k}`); } catch { return null; } })();
+    const value = params.get(k) || stored || '';
+    if (params.get(k)) { try { sessionStorage.setItem(`lp_${k}`, value); } catch { /* storage bloqueado */ } }
+    form.elements[k].value = value;
+  });
+  form.elements.referrer.value = document.referrer;
+
+  const status = $('[data-form-status]', form);
+  const submitLabel = $('[data-submit-label]', form);
+  const success = $('[data-lead-success]', form);
+  const defaultStatus = status.textContent;
+
+  const REQUIRED = ['name', 'whatsapp', 'email', 'stage'];
+  const setFieldError = (name, msg = '') => {
+    const holder = $(`[data-error-for="${name}"]`, form);
+    if (holder) { holder.textContent = msg; holder.classList.toggle('hidden', !msg); }
+    const field = form.elements[name];
+    if (field?.setAttribute) field.setAttribute('aria-invalid', String(!!msg));
+  };
+  const setErrors = (errors = {}) => REQUIRED.forEach((name) => setFieldError(name, errors[name]));
+
+  const validate = () => {
+    const errors = {};
+    const v = (n) => (form.elements[n].value || '').trim();
+    if (v('name').length < 2) errors.name = 'Ingresá tu nombre.';
+    const digits = v('whatsapp').replace(/\D/g, '');
+    if (digits.length < 8 || digits.length > 15) errors.whatsapp = 'Ingresá un WhatsApp válido, con código de área.';
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v('email'))) errors.email = 'Ingresá un mail válido.';
+    if (!form.querySelector('[name="stage"]:checked')) errors.stage = 'Elegí la etapa de tu proyecto.';
+    return errors;
+  };
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const errors = validate();
+    setErrors(errors);
+    if (Object.keys(errors).length) {
+      status.textContent = L.errors?.invalid || '';
+      status.classList.add('text-red-700');
+      const first = form.querySelector('[aria-invalid="true"]');
+      first?.focus();
+      gsap.fromTo(form, { x: -8 }, { x: 0, duration: 0.6, ease: 'elastic.out(1, 0.3)' });
+      return;
+    }
+
+    const button = form.querySelector('[type=submit]');
+    button.disabled = true;
+    submitLabel.textContent = L.sending;
+    status.textContent = defaultStatus;
+    status.classList.remove('text-red-700');
+
+    try {
+      const res = await fetch('/api/leads', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(Object.fromEntries(new FormData(form))),
+      });
+      const json = await res.json().catch(() => ({}));
+      if (res.status === 422 && json.errors) { setErrors(json.errors); throw new Error(L.errors?.invalid); }
+      if (!res.ok || !json.ok) throw new Error(L.errors?.server);
+
+      // Evento de conversión para GTM / Meta Pixel si están instalados.
+      window.dataLayer?.push({ event: 'lead_espacios', stage: form.elements.stage.value });
+      window.fbq?.('track', 'Lead', { content_name: 'espacios' });
+
+      success.classList.remove('hidden');
+      success.classList.add('flex');
+      gsap.fromTo(success, { clipPath: 'inset(100% 0 0 0 round 24px)' }, { clipPath: 'inset(0% 0 0 0 round 24px)', duration: 1.1, ease: 'expo.inOut' });
+      gsap.from($$('*', success), { y: 30, opacity: 0, stagger: 0.08, delay: 0.5 });
+      success.focus();
+      form.reset();
+    } catch (err) {
+      status.textContent = err.message || L.errors?.server;
+      status.classList.add('text-red-700');
+    } finally {
+      button.disabled = false;
+      submitLabel.textContent = L.submit;
+    }
+  });
+
+  // Limpia el error de un campo apenas se corrige.
+  form.addEventListener('input', (e) => {
+    const { name } = e.target;
+    if (REQUIRED.includes(name) && !validate()[name]) setFieldError(name);
+  });
 }
 
 /* ---------------------------------------------------------------- Contacto */
@@ -497,7 +664,7 @@ function initContact() {
 
 /* ---------------------------------------------------------------- Boot */
 const page = document.body.dataset.page;
-const pageInit = { home: initHome, works: initWorks, work: initWork, about: initAbout, contact: initContact, service: initService }[page];
+const pageInit = { home: initHome, works: initWorks, work: initWork, about: initAbout, contact: initContact, service: initService, landing: initLanding }[page];
 
 async function boot() {
   html.classList.add('ready');

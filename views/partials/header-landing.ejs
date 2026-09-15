@@ -1,0 +1,12 @@
+<header data-header data-theme="dark" class="fixed inset-x-0 top-0 z-[80]">
+  <div class="container-x flex h-20 items-center justify-between lg:h-24">
+    <a href="<%= mainSite %>" class="relative z-10 flex items-center gap-4" aria-label="1250" data-magnetic>
+      <%- include('logo', { cls: 'h-9 w-auto lg:h-10' }) %>
+      <span class="hidden font-mono text-[0.62rem] uppercase leading-tight tracking-[0.18em] opacity-70 sm:block">Diseño de<br>locales comerciales</span>
+    </a>
+    <a href="#contacto" class="group relative isolate inline-flex items-center gap-3 overflow-hidden rounded-full border border-current/30 px-5 py-2.5 text-sm font-medium tracking-tight" data-anchor data-magnetic>
+      <span class="relative z-10">Contacto</span>
+      <span class="relative z-10 grid h-6 w-6 place-items-center rounded-full bg-brand-600 text-bone transition-transform duration-500 group-hover:rotate-45" aria-hidden="true">↗</span>
+    </a>
+  </div>
+</header>
