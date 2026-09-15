@@ -578,40 +578,62 @@ function initLanding() {
       return;
     }
 
+    const payload = Object.fromEntries(new FormData(form));
+    const waUrl = whatsappUrl(payload);
+    $('[data-wa-link]', form).href = waUrl;
+
     const button = form.querySelector('[type=submit]');
     button.disabled = true;
     submitLabel.textContent = L.sending;
     status.textContent = defaultStatus;
     status.classList.remove('text-red-700');
 
-    try {
-      const res = await fetch('/api/leads', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(Object.fromEntries(new FormData(form))),
-      });
-      const json = await res.json().catch(() => ({}));
-      if (res.status === 422 && json.errors) { setErrors(json.errors); throw new Error(L.errors?.invalid); }
-      if (!res.ok || !json.ok) throw new Error(L.errors?.server);
+    // El lead se registra en paralelo; keepalive evita que se corte si el navegador sale hacia WhatsApp.
+    const saving = fetch('/api/leads', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+      keepalive: true,
+    }).then((res) => res.ok).catch(() => false);
 
-      // Evento de conversión para GTM / Meta Pixel si están instalados.
-      window.dataLayer?.push({ event: 'lead_espacios', stage: form.elements.stage.value });
-      window.fbq?.('track', 'Lead', { content_name: 'espacios' });
+    // En escritorio se abre en el mismo gesto del clic (evita el bloqueo de ventanas emergentes).
+    // En móvil se redirige a la app de WhatsApp.
+    if (finePointer) window.open(waUrl, '_blank', 'noopener');
 
-      success.classList.remove('hidden');
-      success.classList.add('flex');
-      gsap.fromTo(success, { clipPath: 'inset(100% 0 0 0 round 24px)' }, { clipPath: 'inset(0% 0 0 0 round 24px)', duration: 1.1, ease: 'expo.inOut' });
-      gsap.from($$('*', success), { y: 30, opacity: 0, stagger: 0.08, delay: 0.5 });
-      success.focus();
-      form.reset();
-    } catch (err) {
-      status.textContent = err.message || L.errors?.server;
-      status.classList.add('text-red-700');
-    } finally {
-      button.disabled = false;
-      submitLabel.textContent = L.submit;
-    }
+    // Evento de conversión para GTM / Meta Pixel si están instalados.
+    window.dataLayer?.push({ event: 'lead_espacios', stage: payload.stage, channel: 'whatsapp' });
+    window.fbq?.('track', 'Lead', { content_name: 'espacios' });
+
+    success.classList.remove('hidden');
+    success.classList.add('flex');
+    gsap.fromTo(success, { clipPath: 'inset(100% 0 0 0 round 24px)' }, { clipPath: 'inset(0% 0 0 0 round 24px)', duration: 1.1, ease: 'expo.inOut' });
+    gsap.from($$(':scope > *', success), { y: 30, opacity: 0, stagger: 0.08, delay: 0.5 });
+    success.focus();
+
+    if (!finePointer) setTimeout(() => location.assign(waUrl), 900);
+
+    const saved = await saving;
+    if (!saved) console.warn('[lead] no se pudo registrar; el contacto sigue por WhatsApp');
+    button.disabled = false;
+    submitLabel.textContent = L.submit;
+    form.reset();
   });
+
+  function whatsappUrl(data) {
+    const wa = L.whatsapp || {};
+    const lb = L.labels || {};
+    const lines = [
+      wa.greeting,
+      '',
+      `${lb.name}: ${data.name}`,
+      data.company && `${lb.company}: ${data.company}`,
+      `${lb.stage}: ${data.stage}`,
+      `${lb.whatsapp}: ${data.whatsapp}`,
+      `${lb.email}: ${data.email}`,
+      data.message && `${lb.message}: ${data.message}`,
+    ].filter((l, i) => i === 1 || Boolean(l)); // la línea 1 es el espacio intencional tras el saludo
+    return `https://wa.me/${wa.number}?text=${encodeURIComponent(lines.join('\n'))}`;
+  }
 
   // Limpia el error de un campo apenas se corrige.
   form.addEventListener('input', (e) => {

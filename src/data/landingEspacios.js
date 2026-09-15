@@ -1,6 +1,12 @@
 // Landing de captación de leads para diseño de locales comerciales.
 // Estructura y textos: 1250_LandingEspacios.pdf. Imágenes: proyectos de interiorismo del sitio.
 module.exports = {
+  // Canal de contacto de la landing: los leads se envían por WhatsApp.
+  whatsapp: {
+    number: '5492213641486',
+    display: '+54 9 221 364-1486',
+    greeting: '¡Hola 1250! Quiero transformar mi local comercial.',
+  },
   meta: {
     title: 'Diseño de locales comerciales — 1250',
     description: 'Transformamos tu local comercial en una experiencia de marca. Estrategia, identidad y diseño espacial para retail, gastronomía, oficinas, salud y entretenimiento.',
@@ -57,14 +63,18 @@ module.exports = {
       message: { label: 'Contanos un poco más', placeholder: 'Rubro, ubicación, metros, fechas… (opcional)' },
     },
     stages: ['Estoy por abrir un local nuevo', 'Quiero remodelar mi local actual', 'Estoy buscando local', 'Tengo varias sucursales para unificar', 'Todavía estoy explorando'],
-    submit: 'Enviar',
-    sending: 'Enviando…',
-    success: { title: '¡Gracias! Recibimos tus datos.', text: 'En menos de 48 h hábiles te escribimos por WhatsApp para coordinar una primera charla.' },
+    submit: 'Enviar por WhatsApp',
+    sending: 'Abriendo WhatsApp…',
+    success: {
+      title: '¡Gracias! Ya casi está.',
+      text: 'Abrimos WhatsApp con tus datos cargados: solo tenés que tocar enviar. Si no se abrió, usá el botón.',
+      button: 'Abrir WhatsApp',
+    },
     errors: {
       invalid: 'Revisá los campos marcados.',
-      server: 'No pudimos enviar tus datos. Escribinos a hello@1250.com.ar',
+      server: 'Hubo un problema al registrar tus datos, pero podés escribirnos igual por WhatsApp.',
     },
-    privacy: 'Usamos tus datos solo para contactarte por este proyecto.',
+    privacy: 'Al enviar se abre WhatsApp con tu consulta. Usamos tus datos solo para contactarte por este proyecto.',
   },
   stickyCta: 'Quiero transformar mi local',
 };

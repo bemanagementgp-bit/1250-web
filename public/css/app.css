@@ -2194,6 +2194,9 @@
     border-color: var(--color-brand-600);
   }
   @media (hover: hover) {
+    .hover\:scale-\[1\.03\]:hover {
+      scale: 1.03;
+    }
     .hover\:bg-bone\/10:hover {
       background-color: color-mix(in srgb, #f1ede6 10%, transparent);
     }
