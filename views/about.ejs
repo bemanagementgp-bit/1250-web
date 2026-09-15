@@ -1,0 +1,77 @@
+<%- include('partials/head') %>
+<% const claimWords = about.claim.split(' '); const mid = Math.ceil(claimWords.length / 2); %>
+
+<main id="main">
+  <section class="theme-light bg-bg" data-theme="light">
+    <div class="container-x section-top pb-16 lg:pb-24">
+      <p class="eyebrow mb-8" data-fade><%= t.about.eyebrow %></p>
+      <h1 class="display text-giant">
+        <span class="line-mask"><span class="block" data-hero-line><%= claimWords.slice(0, mid).join(' ') %></span></span>
+        <span class="line-mask"><span class="block text-accent" data-hero-line><em><%= claimWords.slice(mid).join(' ') %></em></span></span>
+      </h1>
+    </div>
+    <div class="container-x pb-24 lg:pb-40">
+      <figure class="relative aspect-[16/9] overflow-hidden rounded-2xl bg-card lg:aspect-[21/9]">
+        <div class="img-reveal absolute inset-0" data-reveal>
+          <%- pic('agencia.jpg', { alt: '1250', sizes: '92vw', cls: 'block h-full w-full', imgCls: 'h-full w-full scale-[1.15] object-cover', attrs: 'data-parallax-img' }) %>
+        </div>
+      </figure>
+    </div>
+  </section>
+
+  <section class="theme-dark bg-bg relative overflow-hidden" data-theme="dark">
+    <div class="hero-mesh pointer-events-none absolute inset-0 opacity-50" aria-hidden="true"><span></span><span></span><span></span></div>
+    <div class="container-x section-y relative">
+      <div class="grid gap-10 lg:grid-cols-12">
+        <p class="eyebrow lg:col-span-3">(01) — <%= t.about.who %></p>
+        <p class="text-[clamp(1.9rem,4.4vw,4.4rem)] font-medium leading-[1.08] tracking-[-0.035em] lg:col-span-9" data-scrub-words><%= about.intro %></p>
+      </div>
+
+      <p class="eyebrow mb-12 mt-28 lg:mt-40">(02) — <%= t.about.how %></p>
+      <% about.services.forEach((s, i) => { const theme = ['theme-light bg-bg', 'theme-brand bg-brand', 'theme-dark bg-card border border-fg/10'][i % 3]; %>
+        <article class="<%= theme %> sticky mb-6 overflow-hidden rounded-3xl p-6 sm:p-10 lg:p-16" style="top: calc(6.5rem + <%= i * 1.5 %>rem)" data-stack-card>
+          <div class="grid gap-10 lg:grid-cols-12">
+            <div class="lg:col-span-6">
+              <div class="flex items-center gap-4">
+                <span class="font-mono text-sm opacity-60"><%= s.n %> / <%= String(about.services.length).padStart(2, '0') %></span>
+                <span class="h-px flex-1 bg-current opacity-20"></span>
+              </div>
+              <h2 class="display mt-8 text-[clamp(2.6rem,6vw,6.5rem)]"><%= s.title %></h2>
+              <p class="mt-6 font-serif text-3xl italic"><%= s.lead %></p>
+            </div>
+            <div class="lg:col-span-5 lg:col-start-8">
+              <p class="text-lg leading-relaxed opacity-75"><%= s.body %></p>
+              <ul class="mt-10 grid gap-x-6 gap-y-2 sm:grid-cols-2">
+                <% s.items.forEach(item => { %><li class="flex gap-2"><span class="text-accent" aria-hidden="true">✦</span><%= item %></li><% }) %>
+              </ul>
+            </div>
+          </div>
+        </article>
+      <% }) %>
+    </div>
+  </section>
+
+  <section class="theme-light bg-bg" data-theme="light">
+    <div class="container-x section-y grid gap-16 lg:grid-cols-12">
+      <div class="lg:col-span-5">
+        <p class="eyebrow mb-6">(03) — <%= t.about.founders %></p>
+        <h2 class="display text-huge accent-em" data-split-lines><%- t.about.foundersTitle %></h2>
+      </div>
+      <ul class="self-end border-t border-fg/15 lg:col-span-6 lg:col-start-7">
+        <% agency.founders.forEach(f => { %>
+          <li>
+            <a href="mailto:<%= f.email %>" class="group flex items-center justify-between gap-6 border-b border-fg/15 py-8" data-cursor="<%= t.cursor.write %>">
+              <span>
+                <span class="block text-3xl font-semibold tracking-tight transition-transform duration-500 group-hover:translate-x-3 lg:text-5xl"><%= f.name %></span>
+                <span class="eyebrow mt-2 block"><%= f.role %> — <%= f.email %></span>
+              </span>
+              <span class="grid h-12 w-12 shrink-0 place-items-center rounded-full border border-fg/20 transition-all duration-500 group-hover:rotate-45 group-hover:border-transparent group-hover:bg-brand-600 group-hover:text-bone">↗</span>
+            </a>
+          </li>
+        <% }) %>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<%- include('partials/footer') %>

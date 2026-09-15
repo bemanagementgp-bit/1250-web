@@ -1,0 +1,85 @@
+<%- include('partials/head') %>
+
+<main id="main" class="theme-dark bg-bg relative overflow-hidden" data-theme="dark">
+  <div class="hero-mesh pointer-events-none absolute inset-x-0 top-0 h-[120vh] opacity-70" aria-hidden="true"><span></span><span></span><span></span></div>
+
+  <section class="container-x section-top relative">
+    <p class="eyebrow mb-8" data-fade><%= t.contact.eyebrow %></p>
+    <h1 class="display text-mega accent-em">
+      <% t.contact.lines.forEach(l => { %><span class="line-mask"><span class="block" data-hero-line><%- l %></span></span><% }) %>
+    </h1>
+  </section>
+
+  <section class="container-x section-y relative grid gap-20 lg:grid-cols-12">
+    <div class="space-y-14 lg:col-span-5" data-stagger>
+      <div>
+        <p class="eyebrow mb-4"><%= t.contact.write %></p>
+        <button type="button" class="group flex flex-wrap items-center gap-4 text-left text-3xl font-medium tracking-tight sm:text-4xl" data-copy="<%= agency.email %>" data-cursor="<%= t.cursor.copy %>">
+          <span class="link-u"><%= agency.email %></span>
+          <span class="rounded-full border border-fg/20 px-3 py-1 font-mono text-[0.62rem] uppercase tracking-widest text-fg/55 transition-colors group-hover:border-accent group-hover:text-accent" data-copy-label><%= t.contact.copy %></span>
+        </button>
+      </div>
+      <div class="grid gap-10 sm:grid-cols-2">
+        <% agency.founders.forEach(f => { %>
+          <div>
+            <p class="eyebrow mb-3"><%= f.role %></p>
+            <p class="text-xl"><%= f.name %></p>
+            <a class="link-u text-fg/60" href="mailto:<%= f.email %>"><%= f.email %></a>
+          </div>
+        <% }) %>
+      </div>
+      <div>
+        <p class="eyebrow mb-3"><%= t.contact.address %></p>
+        <address class="text-xl not-italic leading-snug">
+          <% agency.address.lines.forEach(l => { %><%= l %><br><% }) %>
+          <%= agency.address.city %><br><span class="text-fg/60"><%= agency.address.region[lang] %></span>
+        </address>
+        <a href="<%= agency.address.mapsUrl %>" target="_blank" rel="noopener" class="btn-pill mt-6" data-magnetic><span><%= t.contact.directions %></span><span aria-hidden="true">↗</span></a>
+      </div>
+      <div>
+        <p class="eyebrow mb-3"><%= t.contact.social %></p>
+        <ul class="flex flex-wrap gap-2">
+          <% agency.socials.forEach(s => { %><li><a href="<%= s.url %>" target="_blank" rel="noopener" class="chip inline-block"><%= s.name %> <span class="text-fg/45">@<%= s.handle %></span></a></li><% }) %>
+        </ul>
+      </div>
+    </div>
+
+    <form class="theme-light bg-bg rounded-3xl p-6 sm:p-10 lg:col-span-7 lg:p-14" data-contact-form novalidate>
+      <input type="hidden" name="lang" value="<%= lang %>">
+      <p class="eyebrow mb-4"><%= t.contact.formTitle %></p>
+      <% [
+        { name: 'name', label: t.contact.fields.name, type: 'text', auto: 'name', req: true },
+        { name: 'email', label: t.contact.fields.email, type: 'email', auto: 'email', req: true },
+        { name: 'company', label: t.contact.fields.company, type: 'text', auto: 'organization' },
+      ].forEach((f, i) => { %>
+        <label class="relative block border-b border-fg/20 pb-3 pt-8 transition-colors focus-within:border-brand-600">
+          <span class="absolute left-0 top-[2.6rem] font-mono text-xs text-fg/45">0<%= i + 1 %></span>
+          <span class="sr-only"><%= f.label %></span>
+          <input name="<%= f.name %>" type="<%= f.type %>" autocomplete="<%= f.auto %>" <%= f.req ? 'required' : '' %> placeholder="<%= f.label %><%= f.req ? ' *' : '' %>" class="w-full bg-transparent pl-10 text-2xl tracking-tight outline-none placeholder:text-fg/30 lg:text-3xl">
+        </label>
+      <% }) %>
+      <fieldset class="border-b border-fg/20 py-8">
+        <legend class="sr-only"><%= t.contact.fields.need %></legend>
+        <p class="mb-5 flex items-baseline gap-4 text-2xl tracking-tight text-fg/30 lg:text-3xl"><span class="w-6 font-mono text-xs text-fg/45">04</span><%= t.contact.fields.need %></p>
+        <div class="flex flex-wrap gap-2 pl-10">
+          <% t.contact.interests.forEach(s => { %>
+            <label class="cursor-pointer"><input type="checkbox" name="interest" value="<%= s %>" class="peer sr-only"><span class="chip inline-block peer-checked:border-brand-600 peer-checked:bg-brand-600 peer-checked:text-bone peer-focus-visible:outline-2 peer-focus-visible:outline-brand-600"><%= s %></span></label>
+          <% }) %>
+        </div>
+      </fieldset>
+      <label class="relative block border-b border-fg/20 pb-3 pt-8 transition-colors focus-within:border-brand-600">
+        <span class="absolute left-0 top-[2.6rem] font-mono text-xs text-fg/45">05</span>
+        <span class="sr-only"><%= t.contact.fields.message %></span>
+        <textarea name="message" rows="4" required placeholder="<%= t.contact.fields.message %> *" class="w-full resize-none bg-transparent pl-10 text-2xl tracking-tight outline-none placeholder:text-fg/30 lg:text-3xl"></textarea>
+      </label>
+      <div class="mt-10 flex flex-wrap items-center gap-6">
+        <button type="submit" class="bg-brand grid h-32 w-32 place-items-center rounded-full text-bone lg:h-40 lg:w-40" data-magnetic>
+          <span class="text-lg font-semibold tracking-tight" data-submit-label><%= t.contact.submit %> →</span>
+        </button>
+        <p class="max-w-xs text-sm text-fg/55" data-form-status role="status" aria-live="polite"><%= t.contact.eta %></p>
+      </div>
+    </form>
+  </section>
+</main>
+
+<%- include('partials/footer') %>

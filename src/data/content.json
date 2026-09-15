@@ -1,0 +1,2254 @@
+{
+  "scrapedAt": "2026-09-15T21:38:51.543Z",
+  "source": "https://1250.com.ar",
+  "about": {
+    "es": {
+      "claim": "AYUDAMOS A ELEVAR TUS IDEAS AL SIGUIENTE NIVEL",
+      "intro": "Somos una consultora de diseño. Utilizamos el pensamiento estratégico y la creatividad para resolver desafíos de marca, alcanzar objetivos de negocio y ofrecer excelentes experiencias de usuario.",
+      "services": [
+        {
+          "title": "ESTRATEGIA DE MARCA",
+          "body": "La estrategia es el primer paso. Para lograr una marca con una base conceptual sólida y alineada con los valores y objetivos del negocio, trabajamos en colaboración con nuestros clientes en el análisis y diagnóstico de la situación que incluye las características del mercado, los usuarios y el contexto. A partir de ahí, definimos lineamientos de identidad que ayudan a las empresas a salir al mercado de manera eficiente.",
+          "items": [
+            "Perspectivas de mercado y valor de marca",
+            "Análisis de marca",
+            "Posicionamiento",
+            "Naming",
+            "Taglines, slogans y claims",
+            "Arquitectura de marca"
+          ]
+        },
+        {
+          "title": "DESARROLLO DE MARCA",
+          "body": "Aquí es donde damos vida a los proyectos. Donde la estrategia se convierte a través del proceso creativo en fuertes propuestas visuales para las marcas y en los puntos de contacto con sus audiencias, ya sean espaciales, digitales o analógicas. Nuestra visión del diseño garantiza que los resultados sean tanto estéticos como estratégicos.",
+          "items": [
+            "Identidad de marca",
+            "Directrices de aplicación de marca",
+            "Diseño de oficinas",
+            "Diseño de interiores",
+            "Sistemas de orientación y señalética",
+            "Diseño de exposiciones y eventos",
+            "Diseño editorial",
+            "Diseño de packaging"
+          ]
+        },
+        {
+          "title": "GESTIÓN E IMPLEMENTACIÓN DE MARCA",
+          "body": "Una marca efectiva y consistente solo se construye con el tiempo y como una suma de experiencias en los diferentes canales de comunicación con su audiencia. Ayudamos a las empresas en la implementación de programas de marca, ya sea por etapas de implementación o como equipo asociado durante largos períodos, garantizando la vigencia y actualización en términos de posicionamiento y standards gráficos.",
+          "items": [
+            "Estrategia de implementación de marca",
+            "Comunicaciones internas y externas",
+            "Planificación de contenido"
+          ]
+        }
+      ]
+    },
+    "en": {
+      "claim": "WE HELP TO STEP YOUR IDEAS TO THE NEXT LEVEL",
+      "intro": "We are a design consultant. We use strategic thinking and creativity to solve brand challenges, achieve business goals, and deliver great user experiences.",
+      "services": [
+        {
+          "title": "BRAND STRATEGY",
+          "body": "Strategy is the first step. To achieve a brand with a solid conceptual base and aligned with the values and objectives of the business, we work collaboratively with our clients in the analysis and diagnosis of the situation that includes the characteristics of the market, users and context. From there we define brand guidelines that help companies go to market efficiently.",
+          "items": [
+            "Market and brand equity insights",
+            "Brand analysis",
+            "Positioning",
+            "Naming",
+            "Taglines, slogans and claims",
+            "Brand architecture"
+          ]
+        },
+        {
+          "title": "BRAND DEVELOPMENT",
+          "body": "This is where we bring projects to life. Where the strategy becomes through the creative process strong visual proposals for the brands and their points of contact with their audiences, be they spatial, digital or analog. Our vision of design guarantees that outputs are both aesthetic and strategic.",
+          "items": [
+            "Brand Identity",
+            "Brand Guidelines",
+            "Branded environments",
+            "Wayfinding systems",
+            "Exhibition and event design",
+            "Print design",
+            "Packaging Design"
+          ]
+        },
+        {
+          "title": "BRAND MANAGEMENT",
+          "body": "An effective and consistent brand is only built over time and as a sum of experiences in the different communication channels with its audience. We help companies in brand implementation either by stages of implementation or as a partner team over long periods guaranteeing they are up to date.",
+          "items": [
+            "Brand implementation strategy",
+            "Internal and external communications",
+            "Content planning"
+          ]
+        }
+      ]
+    }
+  },
+  "contact": {
+    "es": {
+      "headline": "Tenés una gran idea.",
+      "lines": [
+        "Tenés una gran idea.",
+        "Escribinos a: hello@1250.com.ar",
+        "Dirección",
+        "Paseo Gonnet",
+        "Cno. Centenario y calle 493",
+        "Oficina 1",
+        "Manuel B. Gonnet",
+        "Buenos Aires, Argentina",
+        "Emilio Laquidara",
+        "Co-Founder",
+        "emilio@1250.com.ar",
+        "Leandro Paez",
+        "Co-Founder",
+        "leandro@1250.com.ar",
+        "Linkedin",
+        "1250studio",
+        "Instagram",
+        "1250.design",
+        "Cuál es tu idea?",
+        "Escribinos a: hello@1250.com.ar"
+      ]
+    },
+    "en": {
+      "lines": []
+    }
+  },
+  "works": [
+    {
+      "id": 113,
+      "slug": "rivadavia-seguros",
+      "cover": "works/113/big0000.jpg",
+      "gallery": [
+        "galerias/371/big0000.jpg",
+        "galerias/372/big0000.jpg",
+        "galerias/373/big0000.jpg",
+        "galerias/373/big0001.jpg",
+        "galerias/374/big0000.jpg",
+        "galerias/374/big0001.jpg",
+        "galerias/375/big0000.jpg",
+        "galerias/375/big0001.jpg",
+        "galerias/375/big0002.jpg",
+        "galerias/375/big0003.jpg",
+        "galerias/375/big0004.jpg",
+        "galerias/375/big0005.jpg",
+        "galerias/375/big0006.jpg",
+        "galerias/375/big0007.jpg",
+        "galerias/375/big0008.jpg",
+        "galerias/376/big0000.jpg",
+        "galerias/376/big0001.jpg",
+        "galerias/376/big0002.jpg",
+        "galerias/376/big0003.jpg",
+        "galerias/376/big0004.jpg",
+        "galerias/376/big0005.jpg",
+        "galerias/376/big0006.jpg",
+        "galerias/376/big0007.jpg",
+        "galerias/376/big0008.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Rivadavia Seguros",
+        "tagline": "Sistema de identidad espacial",
+        "client": "Rivadavia Seguros",
+        "industry": "Seguros",
+        "services": [
+          "Branding",
+          "Diseño de interiores"
+        ],
+        "description": [
+          "Seguros Rivadavia inició un proceso de actualización de sus Centros de Atención al Cliente con el objetivo de fortalecer la experiencia de marca y generar mayor coherencia entre sus espacios de atención distribuidos en todo el país. El desafío consistía en traducir los atributos y valores de una marca con más de 80 años de trayectoria a un lenguaje espacial contemporáneo, capaz de mejorar la experiencia de clientes y colaboradores, optimizar la funcionalidad de los espacios y garantizar criterios de implementación consistentes para futuras aperturas y remodelaciones."
+        ]
+      },
+      "en": {
+        "title": "Rivadavia Seguros",
+        "tagline": "Sistema de identidad espacial",
+        "client": "Rivadavia Seguros",
+        "industry": "Insurance",
+        "services": [
+          "Brand Identity",
+          "Interior Design"
+        ],
+        "description": [
+          "Seguros Rivadavia inició un proceso de actualización de sus Centros de Atención al Cliente con el objetivo de fortalecer la experiencia de marca y generar mayor coherencia entre sus espacios de atención distribuidos en todo el país. El desafío consistía en traducir los atributos y valores de una marca con más de 80 años de trayectoria a un lenguaje espacial contemporáneo, capaz de mejorar la experiencia de clientes y colaboradores, optimizar la funcionalidad de los espacios y garantizar criterios de implementación consistentes para futuras aperturas y remodelaciones."
+        ]
+      }
+    },
+    {
+      "id": 110,
+      "slug": "gasol",
+      "cover": "works/110/big0000.jpg",
+      "gallery": [
+        "galerias/369/big0000.jpg",
+        "galerias/369/big0001.jpg",
+        "galerias/369/big0002.jpg",
+        "galerias/369/big0003.jpg",
+        "galerias/369/big0004.jpg",
+        "galerias/369/big0005.jpg",
+        "galerias/369/big0006.jpg",
+        "galerias/369/big0007.jpg",
+        "galerias/369/big0008.jpg",
+        "galerias/369/big0009.jpg",
+        "galerias/369/big0010.jpg",
+        "galerias/369/big0011.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Gasol",
+        "tagline": "Más de 30 años impulsando la industria",
+        "client": "Gasol Platense S.A.",
+        "industry": "Productos y Servicios para la Industria",
+        "services": [
+          "Branding",
+          "Planificación Estratégica"
+        ],
+        "description": [
+          "Gasol es una empresa platense líder a nivel regional, en venta y distribución de insumos y servicios para la industria. Luego de más de 30 años de actividad en el sector, fuimos convocados para rediseñar su sistema de identidad de forma integral y trabajar en la posterior implementacion del mismo en los diferentes medios y puntos de contacto.",
+          "La nueva imagen busca reflejar los inputs conceptuales surgidos del proceso de investigación y relevamiento, que nos muestran a Gasol como una empresa de primer nivel, en constante crecimiento y con altos estandares de calidad."
+        ]
+      },
+      "en": {
+        "title": "Gasol",
+        "tagline": "More than 30 years promoting the industry",
+        "client": "Gasol Platense S.A.",
+        "industry": "Products and Services for Industry",
+        "services": [
+          "Branding",
+          "Strategic Planning"
+        ],
+        "description": [
+          "Gasol is a La Plata company that is a regional leader in the sale and distribution of supplies and services for the industry. After more than 30 years of activity in the sector, we were called to redesign its identity system comprehensively and work on its subsequent implementation in the different media and contact points.",
+          "The new image seeks to reflect the conceptual inputs arising from the research and survey process, which show Gasol as a first-class company, in constant growth and with high quality standards."
+        ]
+      }
+    },
+    {
+      "id": 109,
+      "slug": "x-boutique",
+      "cover": "works/109/big0000.jpg",
+      "gallery": [
+        "galerias/357/big0000.jpg",
+        "galerias/360/big0000.jpg",
+        "galerias/359/big0000.jpg",
+        "galerias/353/big0000.jpg",
+        "galerias/358/big0000.jpg",
+        "galerias/361/big0000.jpg",
+        "galerias/361/big0001.jpg",
+        "galerias/361/big0002.jpg",
+        "galerias/361/big0003.jpg",
+        "galerias/352/big0000.jpg",
+        "galerias/362/big0000.jpg",
+        "galerias/362/big0001.jpg",
+        "galerias/362/big0002.jpg",
+        "galerias/362/big0003.jpg",
+        "galerias/351/big0000.jpg",
+        "galerias/354/big0000.jpg",
+        "galerias/363/big0000.jpg",
+        "galerias/363/big0001.jpg",
+        "galerias/355/big0000.jpg",
+        "galerias/356/big0000.jpg",
+        "galerias/364/big0000.jpg",
+        "galerias/364/big0001.jpg",
+        "galerias/364/big0002.jpg",
+        "galerias/364/big0003.jpg",
+        "galerias/364/big0004.jpg",
+        "galerias/365/big0000.jpg",
+        "galerias/365/big0001.jpg",
+        "galerias/365/big0002.jpg",
+        "galerias/365/big0003.jpg",
+        "galerias/365/big0004.jpg",
+        "galerias/365/big0005.jpg",
+        "galerias/365/big0006.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "X Boutique",
+        "tagline": "Pleasure is in da house",
+        "client": "X Boutique",
+        "industry": "Lencería / Bienestar sexual",
+        "services": [
+          "Branding",
+          "Diseño de interiores"
+        ],
+        "description": [
+          "X Boutique es una novedosa tienda de lencería romántica, juguetes para adultos y perfumería de autor. Fuimos convocados para el desarrollo de su sistema de identidad y el diseño de su espacio. Empujados por la visión y la convicción de sus creadores de brindar una experiencia innovadora, trabajamos en una propuesta que combina el arte, la sofisticación y la sensualidad configurando el entorno acorde al abanico de sensaciones que promete el proyecto."
+        ]
+      },
+      "en": {
+        "title": "X Boutique",
+        "tagline": "Pleasure is in dahouse",
+        "client": "X Boutique",
+        "industry": "Adult Entertainment",
+        "services": [
+          "Branding",
+          "Interior Design"
+        ],
+        "description": [
+          "X Boutique is an innovative store specializing in romantic lingerie, adult toys, and artisanal perfumery. We were commissioned to develop its identity system and design its space. Driven by the vision and conviction of its creators to provide an innovative experience, we worked on a proposal that combines art, sophistication, and sensuality, configuring an environment that aligns with the range of sensations promised by the project."
+        ]
+      }
+    },
+    {
+      "id": 108,
+      "slug": "wejump",
+      "cover": "works/108/big0000.jpg",
+      "gallery": [
+        "galerias/347/big0000.jpg",
+        "galerias/347/big0001.jpg",
+        "galerias/347/big0002.jpg",
+        "galerias/347/big0003.jpg",
+        "galerias/347/big0004.jpg",
+        "galerias/347/big0005.jpg",
+        "galerias/347/big0006.jpg",
+        "galerias/347/big0007.jpg",
+        "galerias/348/big0000.jpg",
+        "galerias/348/big0001.jpg",
+        "galerias/348/big0002.jpg",
+        "galerias/348/big0003.jpg",
+        "galerias/349/big0000.jpg",
+        "galerias/349/big0001.jpg",
+        "galerias/349/big0002.jpg",
+        "galerias/349/big0003.jpg",
+        "galerias/350/big0000.jpg",
+        "galerias/350/big0001.jpg",
+        "galerias/350/big0002.jpg",
+        "galerias/350/big0003.jpg",
+        "galerias/350/big0004.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "WeJump",
+        "tagline": "Boost your fun",
+        "client": "WeJump",
+        "industry": "Entretenimiento",
+        "services": [
+          "Naming",
+          "Branding",
+          "Diseño de interiores",
+          "Web",
+          "Campaña Publicitaria"
+        ],
+        "description": [
+          "WeJump es el trampoline park más grande de la ciudad de La Plata. Nuestro estudio fue convocado para resolver el proceso creativo de la marca en 360º: la búsqueda del nombre, la conceptualización y diseño de los distintos componentes del sistema de identidad, el diseño del anteproyecto y proyecto ejecutivo del trampoline park y el desarrollo de la campaña publicitaria en vía pública y medios digitales."
+        ]
+      },
+      "en": {
+        "title": "WeJump",
+        "tagline": "Boost your fun",
+        "client": "WeJump",
+        "industry": "Entertainment",
+        "services": [
+          "Naming",
+          "Brand Identity",
+          "Interior Design",
+          "Web",
+          "Advertising Campaign"
+        ],
+        "description": [
+          "WeJump is the largest trampoline park in the city of La Plata. Our studio was called upon to handle the creative process of the brand in 360º: the search for the name, conceptualization and design of the different components of the identity system, the design of the preliminary and executive project of the trampoline park, and the development of the advertising campaign in outdoor and digital media."
+        ]
+      }
+    },
+    {
+      "id": 107,
+      "slug": "teodelinesias",
+      "cover": "works/107/big0000.jpg",
+      "gallery": [
+        "galerias/368/big0000.jpg",
+        "galerias/346/big0000.jpg",
+        "galerias/346/big0001.jpg",
+        "galerias/346/big0002.jpg",
+        "galerias/346/big0003.jpg",
+        "galerias/346/big0004.jpg",
+        "galerias/346/big0005.jpg",
+        "galerias/346/big0006.jpg",
+        "galerias/346/big0007.jpg",
+        "galerias/346/big0008.jpg",
+        "galerias/346/big0009.jpg",
+        "galerias/367/big0000.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Teodelinesias",
+        "tagline": "Pastelería creativa para todo el mundo",
+        "client": "Teodelinesias",
+        "industry": "Alimentos y Bebidas",
+        "services": [
+          "Diseño de interiores"
+        ],
+        "description": [
+          "Teodelinesias es la pastelería de especialidad de Martina Sánchez Acosta, donde todo es producido artesanalmente y con materia prima de calidad. Nos hizo mucha ilusión que Marti nos convocara para el diseño y la implementación de su nuevo local en City Bell, un espacio amplio y con nuevos desafíos que permitiera acompañar el crecimiento de su negocio manteniendo la alegría y calidez de su proyecto. Nuestro equipo trabajó en el desarrollo de la propuesta cuidando los detalles de materialidad, color y texturas para lograr un entorno profesional que a la vez representara el espíritu divertido y ese olorcito a juego que rodea a Teo.",
+          "Con el desafío de mantener la arquitectura clásica del lugar - una casa tipo chalet típica de la zona en la que se emplaza - y la incorporación del nuevo programa de necesidades, surgen los nuevos elementos de líneas puras en donde el color cobra protagonismo.",
+          "Una gran mesada mostrador se lleva la mayor visual desde el ingreso, con materiales puros como el terrazo en la tapa y un frente en color verde que dialoga con la geometría imponente del techo interno también del mismo tono y en contraste con el color crema de la caja interna.",
+          "El solado original del local, un porcelanato símil madera, se mantuvo aportando calidez al espacio. Apoyados en esta textura se planteó un gran elemento lumínico como cenefa área que recorre las líneas del mostrador brindando la contención necesaria en ese espacio.",
+          "Con carpinterías molduradas de madera y vidrio se genera el cerramiento necesario para el sector público del área de producción, dejando así las visuales libres hacia ese sector. Con la idea de enmarcar las ventanas que dan al patio lateral se plantea un módulo de color azul generando un contraste entre el interior y la vegetación exterior."
+        ]
+      },
+      "en": {
+        "title": "Teodelinesias",
+        "tagline": "Creative Bakery for Everyone",
+        "client": "Teodelinesias",
+        "industry": "Food & Drinks",
+        "services": [
+          "Interior design"
+        ],
+        "description": [
+          "Teodelinesias is the specialty pastry shop of Martina Sánchez Acosta, where everything is crafted by hand with high-quality ingredients. We were thrilled when Marti approached us for the design and implementation of her new location in City Bell, a spacious space with new challenges that would allow us to support the growth of her business while maintaining the joy and warmth of her project. Our team worked on developing the concept, paying close attention to materiality, color, and textures to create a professional environment that also embodies the fun spirit and that delightful scent that surrounds Teo."
+        ]
+      }
+    },
+    {
+      "id": 106,
+      "slug": "tecnoimagen",
+      "cover": "works/106/big0000.jpg",
+      "gallery": [
+        "galerias/341/big0000.jpg",
+        "galerias/341/big0001.jpg",
+        "galerias/341/big0002.jpg",
+        "galerias/341/big0003.jpg",
+        "galerias/342/big0000.jpg",
+        "galerias/342/big0001.jpg",
+        "galerias/343/big0000.jpg",
+        "galerias/343/big0001.jpg",
+        "galerias/343/big0002.jpg",
+        "galerias/366/big0000.jpg",
+        "galerias/344/big0000.jpg",
+        "galerias/344/big0001.jpg",
+        "galerias/345/big0000.jpg",
+        "galerias/345/big0001.jpg",
+        "galerias/345/big0002.jpg",
+        "galerias/345/big0003.jpg",
+        "galerias/345/big0004.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Tecnoimagen",
+        "tagline": "Humanizar lo tecnológico",
+        "client": "Tecnoimagen",
+        "industry": "Salud",
+        "services": [
+          "Branding",
+          "Diseño de interiores"
+        ],
+        "description": [
+          "Tecnoimagen es una compañía argentina líder en el campo de la tecnología médica, dedicada a la importación y distribución de productos de primer nivel para las instituciones de salud y centros de diagnóstico. Fuimos convocados para rediseñar su sistema de identidad con motivo de sus 20 años en el sector. En simultáneo, participamos junto a Grupo Ábaco en el diseño de la experiencia y el interiorismo de su nueva nave de oficinas en el barrio de Boedo en Buenos Aires."
+        ]
+      },
+      "en": {
+        "title": "Tecnoimagen",
+        "tagline": "Humanize the technological",
+        "client": "Tecnoimagen",
+        "industry": "Healthcare",
+        "services": [
+          "Brand Identity",
+          "Interior Design"
+        ],
+        "description": [
+          "Tecnoimagen is a leading Argentine company in the field of medical technology, dedicated to the import and distribution of top-level products for health institutions and diagnostic centers. We were summoned to redesign its identity system on the occasion of its 20 years in the sector. Simultaneously, we participated together with Grupo Ábaco in the design of the experience and interior design of its new office building in the Boedo neighborhood in Buenos Aires."
+        ]
+      }
+    },
+    {
+      "id": 112,
+      "slug": "suelo",
+      "cover": "works/112/big0000.jpg",
+      "gallery": [
+        "galerias/370/big0000.jpg",
+        "galerias/370/big0001.jpg",
+        "galerias/370/big0002.jpg",
+        "galerias/370/big0003.jpg",
+        "galerias/370/big0004.jpg",
+        "galerias/370/big0005.jpg",
+        "galerias/370/big0006.jpg",
+        "galerias/370/big0007.jpg",
+        "galerias/370/big0008.jpg",
+        "galerias/370/big0009.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Suelo",
+        "tagline": "La irrupción de una nueva generación",
+        "client": "Suelo Mercadín",
+        "industry": "Alimentos y Bebidas",
+        "services": [
+          "Re-Targeting y Diseño de Interiores"
+        ],
+        "description": [
+          "Una nueva generación conquista el espacio de la anterior de una manera lúdica y fresca.",
+          "La desafiante tarea consistió en realizar un retargeting manteniendo la esencia de la marca preexistente, sin intervenciones arquitectónicas. Desarrollamos un refresh con un atrevido y renovado look and feel que se apropia tanto del local como del packaging."
+        ]
+      },
+      "en": {
+        "title": "Suelo",
+        "tagline": "The appearance of a new generation",
+        "client": "Suelo Mercadín",
+        "industry": "Food & Drinks",
+        "services": [
+          "Re-Targeting",
+          "Interior Design"
+        ],
+        "description": [
+          "A new generation conquers the space of the previous one in a playful and fresh way.",
+          "The challenging task consisted of carrying out retargeting while maintaining the essence of the pre-existing brand, without architectural interventions. We developed a refresh with a daring and renewed look and feel that appropriates both the premises and the packaging."
+        ]
+      }
+    },
+    {
+      "id": 100,
+      "slug": "marfiles",
+      "cover": "works/100/big0000.jpg",
+      "gallery": [
+        "galerias/318/big0000.jpg",
+        "galerias/318/big0001.jpg",
+        "galerias/318/big0002.jpg",
+        "galerias/319/big0000.jpg",
+        "galerias/319/big0001.jpg",
+        "galerias/319/big0002.jpg",
+        "galerias/319/big0003.jpg",
+        "galerias/320/big0000.jpg",
+        "galerias/320/big0001.jpg",
+        "galerias/320/big0002.jpg",
+        "galerias/320/big0003.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Marfiles",
+        "tagline": "Reinventando la experiencia de la atención médica",
+        "client": "Marfiles",
+        "industry": "Salud",
+        "services": [
+          "Branding",
+          "Diseño de interiores"
+        ],
+        "description": [
+          "Marfiles es un consultorio odontológico innovador, cuyo propósito es mejorar la calidad de vida de las personas a partir de un espacio donde sus usuarios sientan confianza, seguridad y bienestar. Una de sus características diferenciales es que sus consultorios están ubicados en grandes centros comerciales o shoppings, proponiendo así una experiencia totalmente distinta a sus usuarios. Nuestro estudio trabajó en el rebranding de la marca y el diseño de sus nuevos espacios, con la premisa de generar un entorno único que generara un quiebre en el tipo de experiencias vinculadas con el ámbito médico, que fuera atractiva, divertida, y que generara ganas de regresar."
+        ]
+      },
+      "en": {
+        "title": "Marfiles",
+        "tagline": "Reinventing the healthcare experience",
+        "client": "Marfiles",
+        "industry": "Healthcare",
+        "services": [
+          "Brand Identity",
+          "Interior Design"
+        ],
+        "description": [
+          "Marfiles is an innovative dental office, whose purpose is to improve the quality of life of people from a space where its users feel confident, safe and well-being. One of its differential characteristics is that its offices are located in large shopping centers or malls, thus proposing a totally different experience to its users. Our studio worked on the rebranding and the design of its new spaces, with the premise of generating a unique environment that would generate a break in the type of experiences linked to the medical field, that would be attractive, fun, and that would generate desire to return."
+        ]
+      }
+    },
+    {
+      "id": 94,
+      "slug": "p96-crossfit-box",
+      "cover": "works/94/big0000.jpg",
+      "gallery": [
+        "galerias/291/big0000.jpg",
+        "galerias/291/big0001.jpg",
+        "galerias/291/big0002.jpg",
+        "galerias/292/big0000.jpg",
+        "galerias/292/big0001.jpg",
+        "galerias/292/big0002.jpg",
+        "galerias/292/big0003.jpg",
+        "galerias/293/big0000.jpg",
+        "galerias/293/big0001.jpg",
+        "galerias/293/big0002.jpg",
+        "galerias/293/big0003.jpg",
+        "galerias/294/big0000.jpg",
+        "galerias/294/big0001.jpg",
+        "galerias/294/big0002.jpg",
+        "galerias/294/big0003.jpg",
+        "galerias/295/big0000.jpg",
+        "galerias/295/big0001.jpg",
+        "galerias/295/big0002.jpg",
+        "galerias/295/big0003.jpg",
+        "galerias/296/big0000.jpg",
+        "galerias/296/big0001.jpg",
+        "galerias/296/big0002.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "P96 Crossfit Box",
+        "tagline": "Un espacio inspirador para entrenar",
+        "client": "P96",
+        "industry": "Deporte",
+        "services": [
+          "Branding",
+          "Diseño de interiores"
+        ],
+        "description": [
+          "P96 es un ambicioso proyecto de Boxes de Crossfit que nace en Barcelona con la idea de ofrecer una experiencia completa de entrenamiento a su comunidad. En equipo con QMS arquitectura, nuestro aporte en el proyecto incluyó el branding, el desarrollo del programa espacial y una propuesta de interiorismo cuya premisa fue lograr un espacio sofisticado, enérgico e inspirador para los amantes de este deporte."
+        ]
+      },
+      "en": {
+        "title": "P96 Crossfit Box",
+        "tagline": "An inspiring space to train",
+        "client": "P96",
+        "industry": "Sports",
+        "services": [
+          "Brand Identity",
+          "Interior Design"
+        ],
+        "description": [
+          "P96 is an ambitious Crossfit Boxes project that was born in Barcelona with the idea of offering a complete training experience to its community. In a team with QMS architecture, our contribution to the project included branding, the development of the space program and an interior design proposal whose premise was to achieve a sophisticated, energetic and inspiring space for lovers of this sport."
+        ]
+      }
+    },
+    {
+      "id": 73,
+      "slug": "femeba-inspire",
+      "cover": "works/73/big0000.jpg",
+      "gallery": [
+        "galerias/108/big0000.jpg",
+        "galerias/107/big0000.jpg",
+        "galerias/107/big0001.jpg",
+        "galerias/109/big0000.jpg",
+        "galerias/109/big0001.jpg",
+        "galerias/113/big0000.jpg",
+        "galerias/114/big0000.jpg",
+        "galerias/95/big0000.jpg",
+        "galerias/95/big0001.jpg",
+        "galerias/95/big0002.jpg",
+        "galerias/100/big0000.jpg",
+        "galerias/103/big0000.jpg",
+        "galerias/103/big0001.jpg",
+        "galerias/111/big0000.jpg",
+        "galerias/105/big0000.jpg",
+        "galerias/105/big0001.jpg",
+        "galerias/104/big0000.jpg",
+        "galerias/104/big0001.jpg",
+        "galerias/106/big0000.jpg",
+        "galerias/106/big0001.jpg",
+        "galerias/106/big0002.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Femeba Inspire",
+        "tagline": "Un espacio inspirado por la innovación",
+        "client": "Estudio Abaco",
+        "industry": "Medicina",
+        "services": [
+          "Diseño de sistema de comunicación espacial"
+        ],
+        "description": [
+          "Femeba Inspire es un moderno centro de simulación médica de alta tecnología perteneciente a la Federación Médica de la Provincia de Buenos Aires, que da formación a profesionales del campo de la medicina con el objetivo de mejorar las habilidades técnicas y no técnicas destinadas a la práctica del arte de curar.",
+          "Nuestro equipo trabajó en el desarrollo del proyecto de orientación e identidad del centro, un edificio compuesto por nueve pisos con diferentes tipos de espacios como aulas, salas de simulación médica, auditorio, gimnasio y diferentes oficinas operativas."
+        ]
+      },
+      "en": {
+        "title": "Femeba Inspire",
+        "tagline": "A space inspired by innovation",
+        "client": "Estudio Abaco",
+        "industry": "Medicine",
+        "services": [
+          "Wayfinding design"
+        ],
+        "description": [
+          "Femeba Inspire is a modern high-tech medical simulation center belonging to the Medical Federation of the Province of Buenos Aires, which trains professionals in the field of medicine with the aim of improving technical and non-technical skills for the practice of art of healing.",
+          "Our team worked on the development of the orientation and identity project for the center, a nine-story building with different types of spaces such as classrooms, medical simulation rooms, auditorium, gym and different operational offices."
+        ]
+      }
+    },
+    {
+      "id": 101,
+      "slug": "rincon-del-duende",
+      "cover": "works/101/big0000.jpg",
+      "gallery": [
+        "galerias/323/big0000.jpg",
+        "galerias/323/big0001.jpg",
+        "galerias/322/big0000.jpg",
+        "galerias/322/big0001.jpg",
+        "galerias/322/big0002.jpg",
+        "galerias/322/big0003.jpg",
+        "galerias/321/big0000.jpg",
+        "galerias/321/big0001.jpg",
+        "galerias/321/big0002.jpg",
+        "galerias/321/big0003.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Rincón del Duende",
+        "tagline": "Un rincón de categoría a metros del mar",
+        "client": "Rincón del Duende",
+        "industry": "Hotelería",
+        "services": [
+          "Diseño de interiores"
+        ],
+        "description": [
+          "Rincón del Duende es un Resort & Spa de categoría ubicado a metros del mar en Mar de las Pampas. Fuimos convocados para rediseñar el interiorismo de uno de sus espacios principales, un multiespacio que reúne las funciones de desayunador y centro de convenciones. Trabajamos en el anteproyecto, documentación técnica y asistencia a la ejecución del proyecto."
+        ]
+      },
+      "en": {
+        "title": "Rincón del Duende",
+        "tagline": "A high-level corner a few meters from the sea",
+        "client": "Rincón del Duende",
+        "industry": "Hospitality",
+        "services": [
+          "Interior design"
+        ],
+        "description": [
+          "Rincón del Duende is a high-quality Resort & Spa located meters from the sea in Mar de las Pampas. We were called to redesign the interior design of one of its main spaces, a multi-space that combines the functions of a breakfast room and a convention center. We work on the draft, technical documentation and assistance in the execution of the project."
+        ]
+      }
+    },
+    {
+      "id": 99,
+      "slug": "wild-hops-dystopia",
+      "cover": "works/99/big0000.jpg",
+      "gallery": [
+        "galerias/313/big0000.jpg",
+        "galerias/313/big0001.jpg",
+        "galerias/313/big0002.jpg",
+        "galerias/314/big0000.jpg",
+        "galerias/314/big0001.jpg",
+        "galerias/314/big0002.jpg",
+        "galerias/315/big0000.jpg",
+        "galerias/315/big0001.jpg",
+        "galerias/315/big0002.jpg",
+        "galerias/316/big0000.jpg",
+        "galerias/316/big0001.jpg",
+        "galerias/316/big0002.jpg",
+        "galerias/317/big0000.jpg",
+        "galerias/317/big0001.jpg",
+        "galerias/317/big0002.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Wild Hops Dystopia",
+        "tagline": "Qué ha pasado en este bar?",
+        "client": "Wild Hops",
+        "industry": "Alimentos y Bebidas",
+        "services": [
+          "Branding",
+          "Diseño de interiores"
+        ],
+        "description": [
+          "Wild Hops es una cadena de cervecerías ubicada en la ciudad de La Plata. En su versión original habíamos trabajado en la idea de irrupción de un colectivo humano en un contexto salvaje animal y vegetal. Para esta, su tercera sucursal, quisimos seguir indagando en la literatura de la marca, planteando un escenario distópico, algo post-apocalíptico, donde la vegetación y el mundo animal intentan recuperar espacios luego del avance de la sociedad de consumo."
+        ]
+      },
+      "en": {
+        "title": "Wild Hops Dystopia",
+        "tagline": "What happened in this bar?",
+        "client": "Wild Hops",
+        "industry": "Food & Drinks",
+        "services": [
+          "Brand Identity",
+          "Interior Design"
+        ],
+        "description": [
+          "Wild Hops is a brewery brand located in the city of La Plata. In its original version we had worked on the idea of ??the irruption of a human collective in a wild animal and plant context. For this, its third branch, we wanted to continue investigating the brand's literature, proposing a dystopian scenario, somewhat post-apocalyptic, where vegetation and the animal world try to recover spaces after the advance of the consumer society."
+        ]
+      }
+    },
+    {
+      "id": 92,
+      "slug": "ermides-pottery-store-workshop",
+      "cover": "works/92/big0000.jpg",
+      "gallery": [
+        "galerias/280/big0000.jpg",
+        "galerias/280/big0001.jpg",
+        "galerias/280/big0002.jpg",
+        "galerias/281/big0000.jpg",
+        "galerias/281/big0001.jpg",
+        "galerias/281/big0002.jpg",
+        "galerias/282/big0000.jpg",
+        "galerias/282/big0001.jpg",
+        "galerias/282/big0002.jpg",
+        "galerias/283/big0000.jpg",
+        "galerias/283/big0001.jpg",
+        "galerias/283/big0002.jpg",
+        "galerias/284/big0000.jpg",
+        "galerias/284/big0001.jpg",
+        "galerias/284/big0002.jpg",
+        "galerias/285/big0000.jpg",
+        "galerias/285/big0001.jpg",
+        "galerias/285/big0002.jpg",
+        "galerias/286/big0000.jpg",
+        "galerias/286/big0001.jpg",
+        "galerias/287/big0000.jpg",
+        "galerias/287/big0001.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Ermides Pottery - Store & Workshop",
+        "tagline": "Un multiespacio para una marca llena de energía",
+        "client": "Ermides Pottery",
+        "industry": "Cerámica",
+        "services": [],
+        "description": [
+          "Ermides Pottery es un hermoso proyecto de recordatorios para la vida en forma de vajilla de cerámica. Además de llevar a cabo el rebranding de la marca, nos encargaron el desafío de diseñar su multiespacio que incluye el shop donde se venden sus productos, el espacio taller donde dictan clases de cerámica, un pequeño café, oficinas administrativas y espacios de producción. Pusimos el foco en generar un espacio con energía y algo lúdico que estuviera a tono con el espíritu del proyecto, y que al recorrerlo nos trajera algún déjà vu de una visita a un museo de arte, una biblioteca nacional o un entretenido parque temático."
+        ]
+      },
+      "en": {
+        "title": "Ermides Pottery - Store & Workshop",
+        "tagline": "A multispace for a brand full of energy",
+        "client": "Ermides Pottery",
+        "industry": "Handcrafts",
+        "services": [],
+        "description": [
+          "Ermides Pottery is a beautiful project that plays with reminders for life in the form of ceramic dinnerware. In addition to carrying out the rebranding, they entrusted us with the challenge of designing their multi-space that includes the shop where their products are sold, the workshop space where they teach ceramics classes, a small cafe, administrative offices and production spaces. We focused on generating a space with energy and something playful that was in tune with the spirit of the project, and that as we walked through it would bring us some déjà vu from a visit to an art museum, a national library or an entertaining theme park."
+        ]
+      }
+    },
+    {
+      "id": 98,
+      "slug": "panoramix",
+      "cover": "works/98/big0000.jpg",
+      "gallery": [
+        "galerias/310/big0000.jpg",
+        "galerias/310/big0001.jpg",
+        "galerias/310/big0002.jpg",
+        "galerias/310/big0003.jpg",
+        "galerias/311/big0000.jpg",
+        "galerias/311/big0001.jpg",
+        "galerias/311/big0002.jpg",
+        "galerias/311/big0003.jpg",
+        "galerias/312/big0000.jpg",
+        "galerias/312/big0001.jpg",
+        "galerias/312/big0002.jpg",
+        "galerias/312/big0003.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Panoramix",
+        "tagline": "Branding como apoyo a un servicio innovador",
+        "client": "Panoramix",
+        "industry": "Radiografía Dental",
+        "services": [
+          "Branding",
+          "Diseño de interiores"
+        ],
+        "description": [
+          "Panoramix es una marca innovadora que presta servicios de imágenes para estudios odontológicos, cuya característica diferencial además del uso de tecnología de alto nivel, es que sus puntos de servicio están ubicados en grandes centros comerciales o shoppings, proponiendo así una experiencia totalmente distinta a sus usuarios, que pueden resolver este tipo de estudios en pocos minutos a la vez que van de compras o disfrutan de un plan de ocio o entretenimiento. Nuestro estudio trabajó en todos los elementos de comunicación de la marca, incluyendo naming, branding y el diseño de sus espacios. El abordaje conceptual del branding busca de forma intencionada despegar este servicio tradicionalmente ligado al ámbito médico para vincularlo más con el mundo de la fotografía y al contexto del shopping, a la vez que propone un acercamiento positivo y enérgico con sus usuarios."
+        ]
+      },
+      "en": {
+        "title": "Panoramix",
+        "tagline": "Branding as support for an innovative service",
+        "client": "Panoramix",
+        "industry": "Dental Radiography",
+        "services": [
+          "Brand Identity",
+          "Interior Design"
+        ],
+        "description": [
+          "Panoramix is an innovative brand that provides imaging services for dental studies, whose differential characteristic, in addition to the use of high-level technology, is that its service points are located in large shopping centers or malls, thus proposing a totally different experience to its users. , who can solve this type of study in a few minutes while they go shopping or enjoy a leisure or entertainment plan. Our studio worked on all the communication elements of the brand, including naming, branding and the design of its spaces. The conceptual approach of branding intentionally seeks to take off this service traditionally linked to the medical field to link it more with the world of photography and the context of shopping, while proposing a positive and energetic approach to its users."
+        ]
+      }
+    },
+    {
+      "id": 95,
+      "slug": "las-camelias",
+      "cover": "works/95/big0000.jpg",
+      "gallery": [
+        "galerias/302/big0000.jpg",
+        "galerias/297/big0000.jpg",
+        "galerias/297/big0001.jpg",
+        "galerias/297/big0002.jpg",
+        "galerias/297/big0003.jpg",
+        "galerias/297/big0004.jpg",
+        "galerias/298/big0000.jpg",
+        "galerias/298/big0001.jpg",
+        "galerias/298/big0002.jpg",
+        "galerias/298/big0003.jpg",
+        "galerias/299/big0000.jpg",
+        "galerias/299/big0001.jpg",
+        "galerias/299/big0002.jpg",
+        "galerias/301/big0000.jpg",
+        "galerias/301/big0001.jpg",
+        "galerias/301/big0002.jpg",
+        "galerias/301/big0003.jpg",
+        "galerias/300/big0000.jpg",
+        "galerias/300/big0001.jpg",
+        "galerias/300/big0002.jpg",
+        "galerias/300/big0003.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Las Camelias",
+        "tagline": "Una experiencia de compra para bon vivants",
+        "client": "Las Camelias",
+        "industry": "Alimentos y Bebidas",
+        "services": [
+          "Branding",
+          "Diseño de interiores"
+        ],
+        "description": [
+          "Las Camelias es una tienda de alimentos, especias, bebidas y otros productos relacionados al disfrute y al bienestar. Desarrollamos su sistema de identidad tomando como punto de partida la particular diversidad de procedencias de sus productos y con la intención de generar una experiencia en los usuarios que los trasladara por un momento a esa situación emocionante del viaje y de la aventura de descubrir sabores de distintas partes del mundo.",
+          "Para el desarrollo de su espacio, en equipo con QMS Arquitectura, nos enfocamos en generar un ambiente cuyo mobiliario y espacialidad se vinculara a las tiendas internacionales de compra de productos como las que encontramos en aeropuertos y lugares turísticos, es decir, donde el disfrute está presente."
+        ]
+      },
+      "en": {
+        "title": "Las Camelias",
+        "tagline": "A shopping experience for bon vivants",
+        "client": "Las Camelias",
+        "industry": "Food & Drinks",
+        "services": [
+          "Brand Identity",
+          "Interior Design"
+        ],
+        "description": [
+          "Las Camelias is a store where you can find food, spices, drinks and other products related to enjoyment and well-being. We developed its identity system taking as a starting point the particular diversity of origins of its products and with the intention of generating an experience in users that would transport them for a moment to that exciting situation of travel and the adventure of discovering flavors of different parts of the world.",
+          "For the development of its space, we focused on generating an environment whose furniture and spatiality would be linked to international product purchase stores such as those found in airports and tourist places, that is, where enjoyment is present."
+        ]
+      }
+    },
+    {
+      "id": 87,
+      "slug": "attend",
+      "cover": "works/87/big0000.jpg",
+      "gallery": [
+        "galerias/238/big0000.jpg",
+        "galerias/238/big0001.jpg",
+        "galerias/239/big0000.jpg",
+        "galerias/239/big0001.jpg",
+        "galerias/240/big0000.jpg",
+        "galerias/241/big0000.jpg",
+        "galerias/242/big0000.jpg",
+        "galerias/243/big0000.jpg",
+        "galerias/244/big0000.jpg",
+        "galerias/247/big0000.jpg",
+        "galerias/245/big0000.jpg",
+        "galerias/248/big0000.jpg",
+        "galerias/250/big0000.jpg",
+        "galerias/249/big0000.jpg",
+        "galerias/251/big0000.jpg",
+        "galerias/253/big0000.jpg",
+        "galerias/252/big0000.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Attend",
+        "tagline": "Diseñando por una sonrisa",
+        "client": "Attend",
+        "industry": "Medicina",
+        "services": [
+          "Naming",
+          "Branding",
+          "Diseño de interiores"
+        ],
+        "description": [
+          "Un equipo de odontólogas y odontólogos emprendedores nos contactaron con la idea de abrir un nuevo centro de atención médica con eje en la odontología en Posadas, Misiones, que saliera de lo común y reflejara el espíritu joven y enérgico de su proyecto. Desde el naming hasta el diseño final de los espacios buscamos un sistema de identidad con potencia y energía, divertido y luminoso."
+        ]
+      },
+      "en": {
+        "title": "Attend",
+        "tagline": "Designing for a smile",
+        "client": "Attend",
+        "industry": "Medicine",
+        "services": [
+          "Naming",
+          "Brand Identity",
+          "Interior Design"
+        ],
+        "description": [
+          "A team of enterprising dentists contacted us with the idea of opening a new health care center with a focus on dentistry in Posadas, Misiones, which would go out of the ordinary and reflect the young and energetic spirit of their project. From the naming to the final design of the spaces, we seek an identity system with power and energy, fun and bright."
+        ]
+      }
+    },
+    {
+      "id": 104,
+      "slug": "gringos",
+      "cover": "works/104/big0000.jpg",
+      "gallery": [
+        "galerias/330/big0000.jpg",
+        "galerias/330/big0001.jpg",
+        "galerias/330/big0002.jpg",
+        "galerias/330/big0003.jpg",
+        "galerias/330/big0004.jpg",
+        "galerias/331/big0000.jpg",
+        "galerias/331/big0001.jpg",
+        "galerias/331/big0002.jpg",
+        "galerias/331/big0003.jpg",
+        "galerias/331/big0004.jpg",
+        "galerias/332/big0000.jpg",
+        "galerias/332/big0001.jpg",
+        "galerias/332/big0002.jpg",
+        "galerias/332/big0003.jpg",
+        "galerias/332/big0004.jpg",
+        "galerias/333/big0000.jpg",
+        "galerias/333/big0001.jpg",
+        "galerias/333/big0002.jpg",
+        "galerias/333/big0003.jpg",
+        "galerias/333/big0004.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Gringo´s",
+        "tagline": "Potenciando la experiencia de compra",
+        "client": "Gringo´s",
+        "industry": "Supermercados",
+        "services": [
+          "Branding",
+          "Diseño de interiores"
+        ],
+        "description": [
+          "Gringo´s es una cadena de supermercados ubicada en la ciudad de La Plata. Nuestro equipo trabajó en el diseño e implementación de su nuevo sistema de identidad y en la apertura de su tercera sucursal, incluyendo el planteo del programa arquitectónico, diseño industrial de mobiliario y estructuras y dirección de obra."
+        ]
+      },
+      "en": {
+        "title": "Gringo´s",
+        "tagline": "Enhancing the shopping experience",
+        "client": "Gringo´s",
+        "industry": "Supermarket",
+        "services": [
+          "Brand Identity",
+          "Interior Design"
+        ],
+        "description": [
+          "Gringo's is a supermarket chain located in the city of La Plata. Our team worked on the design and implementation of its new identity system and on the opening of its third branch, including the planning of the architectural program, industrial design of furniture and structures, and construction management."
+        ]
+      }
+    },
+    {
+      "id": 105,
+      "slug": "tienda-ada",
+      "cover": "works/105/big0000.jpg",
+      "gallery": [
+        "galerias/334/big0000.jpg",
+        "galerias/334/big0001.jpg",
+        "galerias/334/big0002.jpg",
+        "galerias/334/big0003.jpg",
+        "galerias/334/big0004.jpg",
+        "galerias/335/big0000.jpg",
+        "galerias/335/big0001.jpg",
+        "galerias/335/big0002.jpg",
+        "galerias/335/big0003.jpg",
+        "galerias/335/big0004.jpg",
+        "galerias/336/big0000.jpg",
+        "galerias/336/big0001.jpg",
+        "galerias/336/big0002.jpg",
+        "galerias/336/big0003.jpg",
+        "galerias/336/big0004.jpg",
+        "galerias/337/big0000.jpg",
+        "galerias/337/big0001.jpg",
+        "galerias/337/big0002.jpg",
+        "galerias/337/big0003.jpg",
+        "galerias/337/big0004.jpg",
+        "galerias/337/big0005.jpg",
+        "galerias/338/big0000.jpg",
+        "galerias/338/big0001.jpg",
+        "galerias/338/big0002.jpg",
+        "galerias/338/big0003.jpg",
+        "galerias/338/big0004.jpg",
+        "galerias/339/big0000.jpg",
+        "galerias/339/big0001.jpg",
+        "galerias/339/big0002.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Tienda Ada",
+        "tagline": "Un negocio familiar renovado",
+        "client": "Tienda Ada",
+        "industry": "Moda",
+        "services": [
+          "Branding",
+          "Diseño de interiores"
+        ],
+        "description": [
+          "Tienda Ada es una tienda de ropa y complementos para mujeres, hombres y niños ubicada en Villa Constitución, Santa Fe. Nuestro estudio trabajó en la propuesta de rebranding y diseño de su local comercial, en la organización del programa espacial e interiorismo del shop y las oficinas comerciales."
+        ]
+      },
+      "en": {
+        "title": "Tienda Ada",
+        "tagline": "A renewed family business",
+        "client": "Tienda Ada",
+        "industry": "Fashion",
+        "services": [
+          "Brand Identity",
+          "Interior Design"
+        ],
+        "description": [
+          "Tienda Ada is a clothing and accessories store for women, men, and children located in Villa Constitución, Santa Fe. Our studio worked on the rebranding and design proposal for its commercial premises, on the organization of the space program and interior design of the shop and the commercial offices."
+        ]
+      }
+    },
+    {
+      "id": 103,
+      "slug": "taller-mastronardi",
+      "cover": "works/103/big0000.jpg",
+      "gallery": [
+        "galerias/326/big0000.jpg",
+        "galerias/326/big0001.jpg",
+        "galerias/326/big0002.jpg",
+        "galerias/326/big0003.jpg",
+        "galerias/326/big0004.jpg",
+        "galerias/327/big0000.jpg",
+        "galerias/327/big0001.jpg",
+        "galerias/327/big0002.jpg",
+        "galerias/327/big0003.jpg",
+        "galerias/327/big0004.jpg",
+        "galerias/328/big0000.jpg",
+        "galerias/328/big0001.jpg",
+        "galerias/328/big0002.jpg",
+        "galerias/328/big0003.jpg",
+        "galerias/328/big0004.jpg",
+        "galerias/328/big0005.jpg",
+        "galerias/329/big0000.jpg",
+        "galerias/329/big0001.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Taller Mastronardi",
+        "tagline": "Rebranding como apoyo de un cambio generacional",
+        "client": "Taller Mastronardi",
+        "industry": "Automotriz",
+        "services": [
+          "Branding",
+          "Diseño de espacios"
+        ],
+        "description": [
+          "Taller Mastronardi es un taller de reparación de vehículos especializado en chapa y pintura con amplia trayectoria en el sector. Fuimos convocados para trabajar en el rebranding del taller y en una nueva propuesta de organización espacial para su sector de ingreso y espacio de oficinas."
+        ]
+      },
+      "en": {
+        "title": "Taller Mastronardi",
+        "tagline": "Rebranding as support for a generational change",
+        "client": "Taller Mastronardi",
+        "industry": "Automotive industry",
+        "services": [
+          "Brand Identity",
+          "Interior Design"
+        ],
+        "description": [
+          "Taller Mastronardi is a vehicle repair shop specialized in sheet metal and paint with extensive experience in the sector. We were summoned to work on the rebranding of the workshop and on a new spatial organization proposal for its entrance sector and office spaces."
+        ]
+      }
+    },
+    {
+      "id": 93,
+      "slug": "dazzler-los-fuegos",
+      "cover": "works/93/big0000.jpg",
+      "gallery": [
+        "galerias/288/big0000.jpg",
+        "galerias/288/big0001.jpg",
+        "galerias/288/big0002.jpg",
+        "galerias/289/big0000.jpg",
+        "galerias/289/big0001.jpg",
+        "galerias/289/big0002.jpg",
+        "galerias/290/big0000.jpg",
+        "galerias/290/big0001.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Dazzler Los Fuegos",
+        "tagline": "Un skybar de alta cocina",
+        "client": "Dazzler / Femeba",
+        "industry": "Hotelería",
+        "services": [
+          "Diseño de interiores"
+        ],
+        "description": [
+          "En los pisos 12 y 13 del Hotel Dazzler La Plata se encuentra un espacio único por su ubicación y programa. Con una espectacular vista a la Catedral, es a la vez un skybar, un restaurante de alta cocina, y un conjunto de amenities para los usuarios del hotel en tanto desayunador, cafetería y un entorno de relax durante el día. En equipo con estudio Ábaco nos ocupamos de dar respuesta al programa funcional y de definir el lenguaje estructural y material que resultara en una propuesta de interiorismo acorde a la categoría del proyecto."
+        ]
+      },
+      "en": {
+        "title": "Dazzler Los Fuegos",
+        "tagline": "A haute cuisine skybar",
+        "client": "Dazzler / Femeba",
+        "industry": "Hospitality",
+        "services": [
+          "Interior design"
+        ],
+        "description": [
+          "On the 12th and 13th floors of the Hotel Dazzler La Plata there is a unique space due to its location and program. With a spectacular view of the Cathedral, it is both a skybar, a haute cuisine restaurant, and a set of amenities for hotel users such as a breakfast room, cafeteria, and a relaxing environment during the day. Together with Estudio Ábaco we take care of responding to the functional program and defining the structural and material language that will result in an interior design proposal according to the category of the project."
+        ]
+      }
+    },
+    {
+      "id": 81,
+      "slug": "ola-tapas",
+      "cover": "works/81/big0000.jpg",
+      "gallery": [
+        "galerias/203/big0000.jpg",
+        "galerias/203/big0001.jpg",
+        "galerias/204/big0000.jpg",
+        "galerias/204/big0001.jpg",
+        "galerias/205/big0000.jpg",
+        "galerias/205/big0001.jpg",
+        "galerias/206/big0000.jpg",
+        "galerias/206/big0001.jpg",
+        "galerias/207/big0000.jpg",
+        "galerias/207/big0001.jpg",
+        "galerias/208/big0000.jpg",
+        "galerias/208/big0001.jpg",
+        "galerias/209/big0000.jpg",
+        "galerias/210/big0000.jpg",
+        "galerias/211/big0000.jpg",
+        "galerias/211/big0001.jpg",
+        "galerias/211/big0002.jpg",
+        "galerias/212/big0000.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Ola! Tapas",
+        "tagline": "Un restaurante español en la Petite France",
+        "client": "Ola! Tapas",
+        "industry": "Gastronomía",
+        "services": [
+          "Diseño de identidad",
+          "Diseño de interiores"
+        ],
+        "description": [
+          "Ola! Tapas es un restaurante de comida española en la ciudad de Estrasburgo, Francia. En equipo con el arquitecto Pedro Scattarella, desarrollamos el proyecto de identidad e interiorismo del restaurante.",
+          "Durante nuestro proceso de análisis, interpretamos la propuesta gastronómica como una representación icónica de la cultura española en un contexto inmediato diferente caracterizado por otras costumbres y símbolos, lenguajes visuales y arquitectura. En contraste, nos propusimos representar un viaje por distintas zonas de España con sus diferentes representaciones urbanas y culturales. Si caminan desde el exterior hacia los servicios, los visitantes pueden experimentar un paseo que incluye Andalucía, Barcelona, Galicia, el flamenco, la plaza de toros, la pesca y otras historias típicas de ese hermoso país."
+        ]
+      },
+      "en": {
+        "title": "Ola! Tapas",
+        "tagline": "A Spanish restaurant in the Petite France",
+        "client": "Ola! Tapas",
+        "industry": "Hospitality",
+        "services": [
+          "Brand Identity",
+          "Interior Design"
+        ],
+        "description": [
+          "Ola! Tapas is a Spanish food restaurant in the city of Strasbourg, France. In team with the architect Pedro Scattarella, we developed the restaurant's identity and interior design project.",
+          "During our analysis process, we interpret the gastronomic proposal as an iconic representation of Spanish culture in an immediately different context characterized by other customs and symbols, visual languages and architecture. In contrast, we set out to represent a journey through different areas of Spain with its different urban and cultural representations. If they walk from outside to the services, visitors can experience a walk that includes Andalucía, Barcelona, Galicia, the flamenco, the bullring, fishing and other typical stories of that beautiful country."
+        ]
+      }
+    },
+    {
+      "id": 96,
+      "slug": "sybila",
+      "cover": "works/96/big0000.jpg",
+      "gallery": [
+        "galerias/304/big0000.jpg",
+        "galerias/304/big0001.jpg",
+        "galerias/304/big0002.jpg",
+        "galerias/305/big0000.jpg",
+        "galerias/305/big0001.jpg",
+        "galerias/305/big0002.jpg",
+        "galerias/305/big0003.jpg",
+        "galerias/306/big0000.jpg",
+        "galerias/306/big0001.jpg",
+        "galerias/306/big0002.jpg",
+        "galerias/306/big0003.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Sybila",
+        "tagline": "Identidad con energía y dinámica de cambio",
+        "client": "Sybila Producciones",
+        "industry": "Producción de Contenidos",
+        "services": [
+          "Branding",
+          "Diseño de espacios"
+        ],
+        "description": [
+          "Sybila es una productora de contenidos multimedia con más de quince años de trayectoria en la industria. Nuestro equipo desarrolló para ella un nuevo sistema de identidad que la enmarcara fuertemente en su segmento comercial y a la vez tuviera una apertura en sus lineamientos gráficos que permitiera a su equipo una dinámica de cambio y un juego creativo en su implementación.",
+          "Al proyecto de interiorismo desarrollado por las arquitectas Carolina Esnaola y Paula Martínez, incorporamos un conjunto de elementos de comunicación que aportaran al espacio de trabajo el espíritu y el tono de voz planteado en el nuevo sistema de identidad."
+        ]
+      },
+      "en": {
+        "title": "Sybila",
+        "tagline": "A brand with energy and dynamics of change",
+        "client": "Sybila Producciones",
+        "industry": "Content Production",
+        "services": [
+          "Brand Identity",
+          "Brand Interior Design"
+        ],
+        "description": [
+          "Sybila is a multimedia content producer with more than fifteen years of experience in the industry. Our team developed a new identity system for her that would strongly frame her in her commercial segment and at the same time have an opening in her graphic guidelines that would allow her team a dynamic of change and a creative game in its implementation. .",
+          "To the interior design project developed by arquitects Carolina Esnaola and Paula Martínez, we incorporated a set of communication elements that would bring the spirit and tone of voice proposed in the new identity system to the workspace."
+        ]
+      }
+    },
+    {
+      "id": 88,
+      "slug": "aires-market",
+      "cover": "works/88/big0000.jpg",
+      "gallery": [
+        "galerias/254/big0000.jpg",
+        "galerias/255/big0000.jpg",
+        "galerias/255/big0001.jpg",
+        "galerias/256/big0000.jpg",
+        "galerias/265/big0000.jpg",
+        "galerias/264/big0000.jpg",
+        "galerias/260/big0000.jpg",
+        "galerias/259/big0000.jpg",
+        "galerias/258/big0000.jpg",
+        "galerias/263/big0000.jpg",
+        "galerias/262/big0000.jpg",
+        "galerias/266/big0000.jpg",
+        "galerias/261/big0000.jpg",
+        "galerias/257/big0000.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Aires Market",
+        "tagline": "Preparando el escenario para tus marcas preferidas",
+        "client": "Aires Market",
+        "industry": "Alimentación y Bebidas",
+        "services": [
+          "Naming",
+          "Branding",
+          "Diseño de interiores"
+        ],
+        "description": [
+          "Aires Market es un mercado de delicatessen, frutas y verduras de calidad premium que nace con la premisa de brindar un servicio diferencial de logística, higiene y seguridad de los productos.",
+          "1250 desarrolló el naming, diseño de marca, local comercial y redes sociales del proyecto, con la idea de generar un sistema de identidad limpio, sintético y pregnante que proyectara a la marca dentro del dinámico mercado de productos de alimentación, con apertura y capacidad de convertirse en una franquicia a mediano plazo."
+        ]
+      },
+      "en": {
+        "title": "Aires Market",
+        "tagline": "Setting the stage for your favorite brands",
+        "client": "Aires Market",
+        "industry": "Food & Drinks",
+        "services": [
+          "Naming",
+          "Brand Identity",
+          "Interior Design"
+        ],
+        "description": [
+          "Aires Market is a premium quality delicatessen, fruits and vegetables market that was born with the premise of providing a differential service in logistics, hygiene and product safety.",
+          "1250 developed the naming, brand design, shop design and social networks of the project, with the idea of generating a clean, synthetic and pregnant identity system that would project the brand within the dynamic market of food products, with openness and capacity become a franchise in the medium term."
+        ]
+      }
+    },
+    {
+      "id": 82,
+      "slug": "ventex",
+      "cover": "works/82/big0000.jpg",
+      "gallery": [
+        "galerias/174/big0000.jpg",
+        "galerias/174/big0001.jpg",
+        "galerias/174/big0002.jpg",
+        "galerias/175/big0000.jpg",
+        "galerias/175/big0001.jpg",
+        "galerias/175/big0002.jpg",
+        "galerias/176/big0000.jpg",
+        "galerias/177/big0000.jpg",
+        "galerias/178/big0000.jpg",
+        "galerias/179/big0000.jpg",
+        "galerias/179/big0001.jpg",
+        "galerias/179/big0002.jpg",
+        "galerias/180/big0000.jpg",
+        "galerias/180/big0001.jpg",
+        "galerias/180/big0002.jpg",
+        "galerias/181/big0000.jpg",
+        "galerias/181/big0001.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Ventex",
+        "tagline": "Brindando apoyo estratégico a una empresa líder",
+        "client": "Ventex",
+        "industry": "Construcciónq",
+        "services": [
+          "Diseño de identidad",
+          "Implementación de marca"
+        ],
+        "description": [
+          "Ventex es una empresa de rápido crecimiento dedicada a la fabricación de aberturas de PVC. Vinieron a nosotros en busca de un equipo de diseño y comunicación que pudiera unirse en la búsqueda de su objetivo principal: convertirse en la empresa líder en su rubro en Argentina.",
+          "Estableciendo un punto de inflexión en el negocio, la compañía diseñó e implementó un sistema de distribución a través de terceras empresas que venden a usuarios finales y prestan el servicio postventa. Lo llamaron Red Ventex.",
+          "Después de nuestro trabajo de investigación, definimos diferentes puntos de diagnóstico: la necesidad de un cambio de marca para adaptarse a los nuevos desafíos que requeriría el crecimiento de la empresa, y la necesidad predominante de separar claramente las comunicaciones destinadas a los consumidores finales de la marca de aquellas destinado a la red de distribuidores.",
+          "En base a estas premisas, diseñamos la nueva marca para Ventex por un lado, y una nueva para Red Ventex por el otro, y desde ese punto de partida, asignamos canales de comunicación específicos para cada uno.",
+          "Nuestro trabajo incluye la definición estratégica de comunicación y la implementación de acciones de diseño y marketing en diferentes áreas: redes sociales, web, publicidad en diferentes medios y espacios públicos, diseño de locales, diseño de oficinas, piezas impresas y audiovisuales, entre otras."
+        ]
+      },
+      "en": {
+        "title": "Ventex",
+        "tagline": "Providing strategic support to a leading company",
+        "client": "Ventex",
+        "industry": "Construction",
+        "services": [
+          "Brand Identity",
+          "Brand Implementation"
+        ],
+        "description": [
+          "Ventex is a rapidly growing company dedicated to the manufacture of PVC windows and doors. They came to us in search of a design and communication team that could join in the search for their main objective: to become the leading company in their field in Argentina.",
+          "Starting from a turning point in the business, the company devised and implemented a distribution system from third-party companies that sell to end users and handle after-sales service. They called it Red Ventex.",
+          "After our research work, we defined different diagnostic points: the need for rebranding in order to adapt to the new challenges that the growth of the company would require, and the prevailing need to clearly separate the communications intended for end consumers of the brand from those intended for the dealer network.",
+          "Based on these premises, we designed the new brand for Ventex on the one hand, and a new one for Red Ventex on the other, and from that starting point, we assigned specific communication channels for each one.",
+          "Our work includes the strategic definition of communication and the implementation of design and marketing actions in different areas: social media, web, advertising in different media and public spaces, retail design, office design, print and more."
+        ]
+      }
+    },
+    {
+      "id": 97,
+      "slug": "viegas",
+      "cover": "works/97/big0000.jpg",
+      "gallery": [
+        "galerias/307/big0000.jpg",
+        "galerias/307/big0001.jpg",
+        "galerias/307/big0002.jpg",
+        "galerias/307/big0003.jpg",
+        "galerias/307/big0004.jpg",
+        "galerias/308/big0000.jpg",
+        "galerias/308/big0001.jpg",
+        "galerias/308/big0002.jpg",
+        "galerias/308/big0003.jpg",
+        "galerias/308/big0004.jpg",
+        "galerias/309/big0000.jpg",
+        "galerias/309/big0001.jpg",
+        "galerias/309/big0002.jpg",
+        "galerias/309/big0003.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Viegas",
+        "tagline": "Diseño estratégico para la expansión",
+        "client": "Viegas",
+        "industry": "Alimentos y Bebidas",
+        "services": [
+          "Branding",
+          "Planificación Estratégica"
+        ],
+        "description": [
+          "Viegas es una empresa dedicada al suministro integral de materias primas para la industria cárnica y alimentaria con más de 35 años de experiencia en el sector. Nuestro equipo trabajó en el estudio y diagnóstico de la estrategia de comunicación de la empresa, en la elaboración de un plan de trabajo anual y en la consecuente implementación de acciones en los diferentes canales y medios, aportando calidad en términos de identidad y de acercamiento a los objetivos de posicionamiento."
+        ]
+      },
+      "en": {
+        "title": "Viegas",
+        "tagline": "Strategic design for expansion",
+        "client": "Viegas",
+        "industry": "Food & Drinks",
+        "services": [
+          "Branding",
+          "Strategic Planning"
+        ],
+        "description": [
+          "Viegas is a company dedicated to the integral supply of raw materials for the meat and food industry with more than 35 years of experience in the sector. Our team worked on the study and diagnosis of the company's communication strategy, on the preparation of an annual work plan and on the consequent implementation of actions in the different channels and media, providing quality in terms of identity and approach to positioning goals."
+        ]
+      }
+    },
+    {
+      "id": 90,
+      "slug": "portus-met",
+      "cover": "works/90/big0000.jpg",
+      "gallery": [
+        "galerias/270/big0000.jpg",
+        "galerias/270/big0001.jpg",
+        "galerias/270/big0002.jpg",
+        "galerias/271/big0000.jpg",
+        "galerias/271/big0001.jpg",
+        "galerias/271/big0002.jpg",
+        "galerias/272/big0000.jpg",
+        "galerias/272/big0001.jpg",
+        "galerias/272/big0002.jpg",
+        "galerias/273/big0000.jpg",
+        "galerias/273/big0001.jpg",
+        "galerias/273/big0002.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Portus Met",
+        "tagline": "Calidad interior para una empresa en crecimiento",
+        "client": "Portus Met",
+        "industry": "Construcción",
+        "services": [
+          "Diseño de interiores"
+        ],
+        "description": [
+          "Portus Met es una constructora en pleno crecimiento, dedicada a la construcción de edificios, viviendas y espacios comerciales para diferentes industrias. 1250 trabajó en el diseño completo de sus nuevas oficinas administrativas, desde la distribución espacial, el planteo estilístico, diseño de mobiliario y elementos espaciales de identidad."
+        ]
+      },
+      "en": {
+        "title": "Portus Met",
+        "tagline": "Interior quality for a growing company",
+        "client": "Portus Met",
+        "industry": "Constuction",
+        "services": [
+          "Interior design"
+        ],
+        "description": [
+          "Portus Met is a growing construction company, dedicated to the construction of buildings, homes and commercial spaces for different industries. 1250 worked on the complete design of its new administrative offices, from the spatial distribution, the stylistic approach, furniture design and spatial identity elements."
+        ]
+      }
+    },
+    {
+      "id": 102,
+      "slug": "smile-me",
+      "cover": "works/102/big0000.jpg",
+      "gallery": [
+        "galerias/324/big0000.jpg",
+        "galerias/324/big0001.jpg",
+        "galerias/324/big0002.jpg",
+        "galerias/324/big0003.jpg",
+        "galerias/325/big0000.jpg",
+        "galerias/325/big0001.jpg",
+        "galerias/325/big0002.jpg",
+        "galerias/325/big0003.jpg",
+        "galerias/325/big0004.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Smile Me",
+        "tagline": "Preparate para sonreir",
+        "client": "Smile Me",
+        "industry": "Salud",
+        "services": [
+          "Naming",
+          "Branding"
+        ],
+        "description": [
+          "Smile Me es una marca de alineadores dentales invisibles. Fuimos convocados para el desarrollo de naming y branding, y en ese proceso buscamos generar un discurso joven, enérgico y fresco a tono con un producto innovador en el mundo de la salud dental."
+        ]
+      },
+      "en": {
+        "title": "Smile Me",
+        "tagline": "Prepare to smile",
+        "client": "Smile Me",
+        "industry": "Healthcare",
+        "services": [
+          "Naming",
+          "Branding"
+        ],
+        "description": [
+          "Smile Me is a brand of invisible dental aligners. We were summoned to develop naming and branding, and in this process we sought to generate a young, energetic and fresh discourse in tune with an innovative product in the world of dental health."
+        ]
+      }
+    },
+    {
+      "id": 91,
+      "slug": "ermides-pottery",
+      "cover": "works/91/big0000.jpg",
+      "gallery": [
+        "galerias/274/big0000.jpg",
+        "galerias/274/big0001.jpg",
+        "galerias/274/big0002.jpg",
+        "galerias/275/big0000.jpg",
+        "galerias/275/big0001.jpg",
+        "galerias/275/big0002.jpg",
+        "galerias/276/big0000.jpg",
+        "galerias/276/big0001.jpg",
+        "galerias/276/big0002.jpg",
+        "galerias/277/big0000.jpg",
+        "galerias/277/big0001.jpg",
+        "galerias/277/big0002.jpg",
+        "galerias/278/big0000.jpg",
+        "galerias/278/big0001.jpg",
+        "galerias/278/big0002.jpg",
+        "galerias/279/big0000.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Ermides Pottery",
+        "tagline": "Branding como herramienta para un proyecto lleno de energía",
+        "client": "Ermides Pottery",
+        "industry": "Cerámica",
+        "services": [
+          "Diseño de identidad"
+        ],
+        "description": [
+          "Ermides Pottery es un hermoso proyecto de recordatorios para la vida en forma de vajilla de cerámica . #vajillaquedice fue la sencilla y potente premisa para el trabajo de rediseño de identidad que desarrollamos. Decidimos generar un sistema abierto y con una gama de recursos suficiente que permitiera dar apoyo a la vida cotidiana del negocio, llena de cosas para decir y mostrar. Fue un desafío extra estar a la altura de un proyecto llevado a cabo por artistas y creativos de gran nivel, y poder lograr un sistema que complementara y a la vez fuera respetuoso del producto."
+        ]
+      },
+      "en": {
+        "title": "Ermides Pottery",
+        "tagline": "Branding as a tool for a project full of energy",
+        "client": "Ermides Pottery",
+        "industry": "Handcrafts",
+        "services": [
+          "Brand Identity"
+        ],
+        "description": [
+          "Ermides Pottery is a beautiful project that plays with reminders for life in the form of ceramic dinnerware. \"tableware that says\" was the simple and powerful premise for the identity redesign work we developed. We decided to create an open system with a sufficient range of resources that would allow us to support the daily life of the business, full of things to say and show. It was an extra challenge to live up to a project carried out by high-level artists and creatives, and to be able to achieve a system that complemented and at the same time was respectful of the product."
+        ]
+      }
+    },
+    {
+      "id": 78,
+      "slug": "wild-hops",
+      "cover": "works/78/big0000.jpg",
+      "gallery": [
+        "galerias/182/big0000.jpg",
+        "galerias/182/big0001.jpg",
+        "galerias/183/big0000.jpg",
+        "galerias/183/big0001.jpg",
+        "galerias/184/big0000.jpg",
+        "galerias/185/big0000.jpg",
+        "galerias/187/big0000.jpg",
+        "galerias/188/big0000.jpg",
+        "galerias/188/big0001.jpg",
+        "galerias/189/big0000.jpg",
+        "galerias/189/big0001.jpg",
+        "galerias/190/big0000.jpg",
+        "galerias/190/big0001.jpg",
+        "galerias/191/big0000.jpg",
+        "galerias/191/big0001.jpg",
+        "galerias/192/big0000.jpg",
+        "galerias/192/big0001.jpg",
+        "galerias/193/big0000.jpg",
+        "galerias/193/big0001.jpg",
+        "galerias/201/big0000.jpg",
+        "galerias/202/big0000.jpg",
+        "galerias/194/big0000.jpg",
+        "galerias/194/big0001.jpg",
+        "galerias/195/big0000.jpg",
+        "galerias/195/big0001.jpg",
+        "galerias/196/big0000.jpg",
+        "galerias/196/big0001.jpg",
+        "galerias/196/big0002.jpg",
+        "galerias/197/big0000.jpg",
+        "galerias/197/big0001.jpg",
+        "galerias/198/big0000.jpg",
+        "galerias/198/big0001.jpg",
+        "galerias/199/big0000.jpg",
+        "galerias/200/big0000.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Wild Hops",
+        "tagline": "Welcome to the Jungle",
+        "client": "Wild Hops",
+        "industry": "Gastronomía",
+        "services": [
+          "Branding",
+          "Diseño de interiores"
+        ],
+        "description": [
+          "Un grupo de enérgicos emprendedores gastronómicos nos contactó para encontrar un concepto atractivo y darle forma a su nuevo proyecto de cervecería artesanal en pleno centro de La Plata, Argentina.",
+          "Después de algunas sesiones de brainstorming nos estusiasmamos con la idea de crear una cervecería tal como si se hubiese abierto en medio de la sabana o la jungla africana.",
+          "Nos resultaba interesante por un profundo afecto a la vida salvaje y animal, y porque se trataba de un universo interpretativo muy rico en imágenes y lleno de posibles historias.",
+          "Así nos pusimos a trabajar sobre una propuesta de identidad que además de representar a una cervecería también permitiera ser la marca de un equipo de personas al servicio de esa aventura."
+        ]
+      },
+      "en": {
+        "title": "Wild Hops",
+        "tagline": "Welcome to the Jungle",
+        "client": "Wild Hops",
+        "industry": "Hospitality",
+        "services": [
+          "Brand Identity",
+          "Interior Design"
+        ],
+        "description": [
+          "A group of energetic gastronomic entrepreneurs contacted us to find an attractive concept and shape their new craft brewery project in the heart of La Plata, Argentina.",
+          "After some brainstorming sessions we got excited about the idea of creating a brewery as if it had been opened in the middle of the savannah or the African jungle.",
+          "We found it interesting because of a deep affection for wildlife and animals, and because it was an interpretive universe very rich in images and full of possible stories.",
+          "So we got to work on an identity proposal that, in addition to representing a brewery, would also make it the brand of a team of people at the service of that adventure."
+        ]
+      }
+    },
+    {
+      "id": 74,
+      "slug": "camara-argentina-de-comercio",
+      "cover": "works/74/big0000.jpg",
+      "gallery": [
+        "galerias/127/big0000.jpg",
+        "galerias/127/big0001.jpg",
+        "galerias/128/big0000.jpg",
+        "galerias/128/big0001.jpg",
+        "galerias/129/big0000.jpg",
+        "galerias/129/big0001.jpg",
+        "galerias/129/big0002.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Cámara Argentina de Comercio",
+        "tagline": "Celebrando el primer centenario con un proyecto de calidad",
+        "client": "Cámara Argentina de Comercio y Servicios",
+        "industry": "Entidades gremiales",
+        "services": [
+          "Proyecto de comunicación y orientación espacial"
+        ],
+        "description": [
+          "La Cámara Argentina de Comercio y Servicios es una importante organización patronal creada en 1924 con el objetivo de unir el sector comercial y de servicios del país.",
+          "A pocos años de su centenario, la institución decidió volver a funcionalizar por completo su emblemático edificio ubicado a pocos metros de la Casa Rosada, sede de la presidencia de la República Argentina.",
+          "1250 fue contratado para desarrollar el proyecto de comunicación del edificio."
+        ]
+      },
+      "en": {
+        "title": "Cámara Argentina de Comercio",
+        "tagline": "Celebrate your first century with a high-end implementation",
+        "client": "Cámara Argentina de Comercio y Servicios",
+        "industry": "Trade Unions",
+        "services": [
+          "Wayfinding project"
+        ],
+        "description": [
+          "The Cámara Argentina de Comercio y Servicios is an important employers organization created in 1924 with the aim of uniting the country's commercial and services sector.",
+          "A few years before its 100th anniversary, the institution decided to completely re-functionalize its emblematic building located a few meters from the Casa Rosada, seat of the presidency of the Argentine Republic.",
+          "1250 Studio was hired to develop the building's wayfinding project."
+        ]
+      }
+    },
+    {
+      "id": 72,
+      "slug": "heladeria-h",
+      "cover": "works/72/big0000.jpg",
+      "gallery": [
+        "galerias/162/big0000.jpg",
+        "galerias/162/big0001.jpg",
+        "galerias/163/big0000.jpg",
+        "galerias/163/big0001.jpg",
+        "galerias/164/big0000.jpg",
+        "galerias/164/big0001.jpg",
+        "galerias/165/big0000.jpg",
+        "galerias/165/big0001.jpg",
+        "galerias/166/big0000.jpg",
+        "galerias/166/big0001.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Heladería H",
+        "tagline": "Vamos a darle un nuevo look a este sabor tradicional",
+        "client": "Heladería H",
+        "industry": "Gastronomía",
+        "services": [
+          "Diseño de identidad"
+        ],
+        "description": [
+          "Heladería H es una heladería tradicional reconocida, dedicada desde 1975 a la fabricación artesanal de helados con materias primas seleccionadas.",
+          "Segunda generación familiar de heladeros, se acercaron a nosotros con la necesidad de trabajar en el rediseño de la imagen de marca, el packaging y el diseño de sus locales con el objetivo de redefinir su posicionamiento, sumado a la necesidad de incorporar el servicio de café y pastelería.",
+          "La búsqueda se basó en recuperar la identificación de la marca con el universo de las heladerías y cafeterías gourmet, enfatizando la elaboración, calidad y tradición como conceptos asociados , y definiendo como eslogan \"Expertos en helados\", que expresa claramente su posición en el rubro."
+        ]
+      },
+      "en": {
+        "title": "Heladería H",
+        "tagline": "Let´s give a new look to that traditional taste",
+        "client": "Heladería H",
+        "industry": "Food",
+        "services": [
+          "Brand Identity"
+        ],
+        "description": [
+          "Heladería H is a renowned and traditional ice cream parlor, dedicated since 1975 to the artisanal manufacture of ice creams with selected raw materials.",
+          "Second family generation of ice cream makers, came to us with the need to work on the redesign of the brand image, packaging and the design of their shops with the aim of redefining their positioning, added to the need to incorporate the coffee and pastry service.",
+          "The search was to recover the brand identification in the universe of gourmet ice cream parlors and coffee shops, emphasizing the elaboration, quality and tradition, concepts associated with the brand, defining as slogan \"Ice cream experts\", which clearly expresses its position in the field."
+        ]
+      }
+    },
+    {
+      "id": 84,
+      "slug": "primer-congreso-de-periodismo-digital",
+      "cover": "works/84/big0000.jpg",
+      "gallery": [
+        "galerias/145/big0000.jpg",
+        "galerias/147/big0000.jpg",
+        "galerias/148/big0000.jpg",
+        "galerias/150/big0000.jpg",
+        "galerias/150/big0001.jpg",
+        "galerias/151/big0000.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Primer Congreso de Periodismo Digital",
+        "tagline": "Asistiendo al crecimiento de un poderoso espacio colectivo",
+        "client": "Asociación de Periodismo Digital",
+        "industry": "Medios",
+        "services": [
+          "Diseño de Campaña"
+        ],
+        "description": [
+          "La Asociación de Periodismo Digital (APD) es una asociación sin fines de lucro que agrupa a los medios digitales nativos de Argentina.",
+          "En 2019 organizaron el Primer Congreso de Periodismo Digital en la ciudad de Buenos Aires, y nos llamaron para diseñar su identidad y las diferentes piezas del evento."
+        ]
+      },
+      "en": {
+        "title": "Primer Congreso de Periodismo Digital",
+        "tagline": "Attending the growth of a powerful collective space",
+        "client": "Asociación de Periodismo Digital",
+        "industry": "Media",
+        "services": [
+          "Campaign Design"
+        ],
+        "description": [
+          "The Asociación de Periodismo Digital (APD) is a non-profit association that groups the native digital media of Argentina.",
+          "In 2019 they organized the First Congress of Digital Journalism in the city of Buenos Aires, and called us to design its identity and the different pieces of the event."
+        ]
+      }
+    },
+    {
+      "id": 85,
+      "slug": "universidad-caece",
+      "cover": "works/85/big0000.jpg",
+      "gallery": [
+        "galerias/221/big0000.jpg",
+        "galerias/214/big0000.jpg",
+        "galerias/217/big0000.jpg",
+        "galerias/220/big0000.jpg",
+        "galerias/237/big0000.jpg",
+        "galerias/215/big0000.jpg",
+        "galerias/222/big0000.jpg",
+        "galerias/218/big0000.jpg",
+        "galerias/213/big0000.jpg",
+        "galerias/216/big0000.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Universidad Caece",
+        "tagline": "Un nuevo espacio educativo para nuevas generaciones",
+        "client": "Cámara Argentina de Comercio y Servicios",
+        "industry": "Educación",
+        "services": [
+          "Diseño de sistema de comunicación espacial"
+        ],
+        "description": [
+          "Universidad Caece es una universidad privada Argentina fundada en 1967, con sedes en Buenos Aires y Mar del Plata. En el año 2015 la institución llevó a cabo la remodelación total de su sede en Avenida de Mayo, en Buenos Aires, y fuimos convocados para el desarrollo del sistema de orientación y ambientación del edificio, que consta de nueve plantas donde se distribuyen aulas, oficinas administrativas, biblioteca, laboratorios y otros servicios.",
+          "El tono de voz y las decisiones formales del proyecto intentan generar un equilibro entre el perfil académico y el estilo de la institución y el de sus usuarios - estudiantes jóvenes - dando como resultado un sistema de información de tinte funcionalista pero con algunas licencias de humor, materializadas en hipérboles y distintos guiños en el espacio."
+        ]
+      },
+      "en": {
+        "title": "Universidad Caece",
+        "tagline": "A new educational space for new generations",
+        "client": "Cámara Argentina de Comercio y Servicios",
+        "industry": "Education",
+        "services": [
+          "Wayfinding design"
+        ],
+        "description": [
+          "Universidad Caece is a private Argentine university founded in 1967, with headquarters in Buenos Aires and Mar del Plata. In 2015 the institution carried out the total remodeling of its campus in Avenida de Mayo, in Buenos Aires, and we were called to develop the orientation and setting system for the building, which consists of nine floors with classrooms, administrative offices, library, laboratories and other services.",
+          "The tone of voice and the formal decisions of the project try to strike a balance between the academic profile and the style of the institution and that of its users - young students - resulting in an information system that is functionalist but with some humorous licenses, materialized in hyperbole and different winks in the space."
+        ]
+      }
+    },
+    {
+      "id": 76,
+      "slug": "fango",
+      "cover": "works/76/big0000.jpg",
+      "gallery": [
+        "galerias/138/big0000.jpg",
+        "galerias/138/big0001.jpg",
+        "galerias/138/big0002.jpg",
+        "galerias/139/big0000.jpg",
+        "galerias/139/big0001.jpg",
+        "galerias/139/big0002.jpg",
+        "galerias/140/big0000.jpg",
+        "galerias/140/big0001.jpg",
+        "galerias/140/big0002.jpg",
+        "galerias/141/big0000.jpg",
+        "galerias/141/big0001.jpg",
+        "galerias/141/big0002.jpg",
+        "galerias/142/big0000.jpg",
+        "galerias/142/big0001.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Fango",
+        "tagline": "¿Ese es Don Draper? Seguro le encantaría este lugar",
+        "client": "Fango",
+        "industry": "Gastronomía",
+        "services": [
+          "Diseño de interiores"
+        ],
+        "description": [
+          "Nuestro equipo desarrolló el diseño interior para Fango Horno & Vermú, una vermutería en un barrio tranquilo de La Plata, Argentina.",
+          "Fango en italiano significa \"barro\". El naming del restaurante tuvo como origen el punto fuerte de la propuesta gastronómica en la que se apoya, el horno de barro.",
+          "Nos encantó la idea de maridar los significantes de dos vertientes diferentes que venían atravesadas por la italianidad. Tanto el fango desde su aspecto más natural como el vermut y su elaboración nos trasladaban a un mundo de especias y especies, de botánica y de mezclas culinarias. Así es como en el espacio se terminaron conjugando texturas orgánicas, frescos pintados de patio y lámparas en forma de anís estrellado en un ritmo ordenado por leyes del art decó que derivan de la exploración del universo gráfico histórico de las marcas de aperitivos.",
+          "Con sus toques dorados y cierta nostalgia, Fango termina siendo una propuesta sofisticada pero fresca, llena de detalles y un sonido de jazz implícito en su aire."
+        ]
+      },
+      "en": {
+        "title": "Fango",
+        "tagline": "Is that Don Draper? Surely He´d love this place",
+        "client": "Fango",
+        "industry": "Medicine",
+        "services": [
+          "Interior design"
+        ],
+        "description": [
+          "Our team developed the interior design for Fango Horno & Vermú, a vermut bar in a quiet neighborhood in La Plata, Argentina.",
+          "Fango in Italian means \"mud\". The naming of the restaurant originated from the strong point of the gastronomic proposal on which it rests, the clay oven.",
+          "We loved the idea of pairing the signifiers of two different aspects that were crossed by Italianness. Both the mud from its most natural aspect and the vermouth and its elaboration took us to a world of spices and species, of botany and culinary mixtures. This is how the space ended up combining organic textures, painted frescoes and star anise shaped lamps in a rhythm ordered by art deco laws derived from the exploration of the historical graphic universe of vermouth brands.",
+          "With its golden touches and a certain nostalgia, Fango ends up being a sophisticated but fresh proposal, full of details and a jazz sound implicit in its air."
+        ]
+      }
+    },
+    {
+      "id": 83,
+      "slug": "corazon-de-tango",
+      "cover": "works/83/big0000.jpg",
+      "gallery": [
+        "galerias/131/big0000.jpg",
+        "galerias/131/big0001.jpg",
+        "galerias/131/big0002.jpg",
+        "galerias/132/big0000.jpg",
+        "galerias/132/big0001.jpg",
+        "galerias/132/big0002.jpg",
+        "galerias/133/big0000.jpg",
+        "galerias/133/big0001.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Corazón de Tango",
+        "tagline": "Al ritmo del 2x4 en las calles de Nuremberg",
+        "client": "Corazón de Tango",
+        "industry": "Espectáculo",
+        "services": [
+          "Diseño de identidad"
+        ],
+        "description": [
+          "Corazón de Tango es una productora de eventos de tango y neotango en Nuremberg, Alemania. Nos contactaron en busca de un rediseño de identidad que abandonara el tratamiento clásico del tema representado en su antiguo signo a partir de elementos gráficos del fileteado porteño y de su característica cartelería para poder representar de mejor manera esta nueva etapa del proyecto, donde el neotango y expresiones artísticas de tinte contemporáneo forman parte de la grilla y de la búsqueda estética.",
+          "Nuestra premisa fue entonces conseguir un sistema de identidad fresco orientado al mundo del entretenimiento y completando el significado que el mismo naming define, que a su vez fuera lo suficientemente abierto a nivel cromático y en el uso de las imágenes para poder soportar las dinámicas del negocio y su diversidad de espectáculos.",
+          "Nuestro trabajo incluyó el diseño de identidad y un sistema básico de piezas promocionales para los eventos de la productora."
+        ]
+      },
+      "en": {
+        "title": "Corazón de Tango",
+        "tagline": "Dancing tango on the streets of Nuremberg",
+        "client": "Corazón de Tango",
+        "industry": "Entertainment",
+        "services": [
+          "Brand Identity"
+        ],
+        "description": [
+          "Corazón de Tango is a tango and neotango event producer of events in Nürmberg, Germany. They contacted us in search of a redesign of identity that would abandon the classic treatment of the subject represented in its old sign based on graphic elements of the Buenos Aires fileteado and its characteristic signage in order to better represent this new stage of the project, where the neotango and Artistic expressions of contemporary color are part of the grid and the aesthetic search.",
+          "Our premise was then to achieve a fresh identity system oriented to the world of entertainment and completing the meaning that naming itself defines, which in turn was open enough in the use of color and the images to be able to support the dynamics of the business and its diversity of shows.",
+          "Our work included identity design and a basic set of promotional pieces for the producer's events."
+        ]
+      }
+    },
+    {
+      "id": 86,
+      "slug": "cortez",
+      "cover": "works/86/big0000.jpg",
+      "gallery": [
+        "galerias/229/big0000.jpg",
+        "galerias/230/big0000.jpg",
+        "galerias/232/big0000.jpg",
+        "galerias/223/big0000.jpg",
+        "galerias/226/big0000.jpg",
+        "galerias/224/big0000.jpg",
+        "galerias/227/big0000.jpg",
+        "galerias/231/big0000.jpg",
+        "galerias/225/big0000.jpg",
+        "galerias/235/big0000.jpg",
+        "galerias/234/big0000.jpg",
+        "galerias/233/big0000.jpg",
+        "galerias/236/big0000.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Cortez",
+        "tagline": "Reinventando un clásico en la ciudad",
+        "client": "Cortez",
+        "industry": "Gastronomía",
+        "services": [
+          "Rediseño de identidad",
+          "Diseño de interiores"
+        ],
+        "description": [
+          "Cortez es un clásico bar de vinos y buena gastronomía en la ciudad de La Plata. En 2017 sus dueños decidieron dar impulso al patio del restaurante como una nueva y atractiva unidad de negocio dentro del mismo proyecto dando lugar en este caso a la cerveza artesanal y la coctelería, y nos llamaron a trabajar en la búsqueda del concepto y el diseño interior del mismo.",
+          "Usamos el fuerte carácter español de su naming como inspiración para poder desarrollar una propuesta de identidad espacial que reuniera el concepto de patio español con los significantes materiales y conceptuales ligados a las cervecerías artesanales.",
+          "De allí surge El Patio de Cortez, con sus texturas moriscas, neones un poco de barra de bareto y otro poco de New York style, y mucho espacio para disfrutar un buen tapeo."
+        ]
+      },
+      "en": {
+        "title": "Cortez",
+        "tagline": "Reinventing a classic in the city",
+        "client": "Cortez",
+        "industry": "Hospitality",
+        "services": [
+          "Rebranding",
+          "Interior Design"
+        ],
+        "description": [
+          "Cortez is a classic wine bar with good gastronomy in the city of La Plata. In 2017, its owners decided to promote the restaurant courtyard as a new and attractive business unit within the same project, based in this case to craft beer and cocktails, and called us to work in search of its concept and interior design.",
+          "We used the strong Spanish character of its naming as inspiration to be able to develop a proposal for spatial identity that would bring together the concept of the Spanish patio with the material and conceptual signifiers linked to craft breweries.",
+          "From there comes El Patio de Cortez, with its moorish textures, neons with a little bit of spanish baretos and a little bit of New York style, and a lot of space to enjoy some good tapas."
+        ]
+      }
+    },
+    {
+      "id": 79,
+      "slug": "valkirias",
+      "cover": "works/79/big0000.jpg",
+      "gallery": [
+        "galerias/115/big0000.jpg",
+        "galerias/116/big0000.jpg",
+        "galerias/119/big0000.jpg",
+        "galerias/118/big0000.jpg",
+        "galerias/125/big0000.jpg",
+        "galerias/125/big0001.jpg",
+        "galerias/120/big0000.jpg",
+        "galerias/120/big0001.jpg",
+        "galerias/126/big0000.jpg",
+        "galerias/126/big0001.jpg",
+        "galerias/121/big0000.jpg",
+        "galerias/122/big0000.jpg",
+        "galerias/123/big0000.jpg",
+        "galerias/123/big0001.jpg",
+        "galerias/124/big0000.jpg",
+        "galerias/124/big0001.jpg",
+        "galerias/124/big0002.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Valkirias",
+        "tagline": "Comiendo una pizza en el Valhalla",
+        "client": "Valkirias",
+        "industry": "Gastronomía",
+        "services": [
+          "Diseño de interiores"
+        ],
+        "description": [
+          "La pizzería y cervecería Las Valkirias abrió sus puertas en la ciudad de La Plata, Argentina, en 2016 y rápidamente se convirtió en un clásico por su deliciosa pizza.",
+          "Los dueños decidieron ir por más y abrir su segundo restaurante, y nos confiaron su diseño.",
+          "Emocionados por la sugerente denominación del restaurante, decidimos aprovechar su storytelling y llevarlo al espacio, representando la iconografía de las historias de guerra vikingas, sus aspectos formales y escénicos. Las Valkirias es una pizzería cálida de barrio en América del Sur pero con una pintoresca historia nórdica que contar."
+        ]
+      },
+      "en": {
+        "title": "Valkirias",
+        "tagline": "Eating a pizza in the Valhalla",
+        "client": "Valkirias",
+        "industry": "Hospitality",
+        "services": [
+          "Interior Design"
+        ],
+        "description": [
+          "Las Valkirias pizzeria and brewery opened its doors in the city of La Plata, Argentina, in 2016 and quickly became a classic for its delicious pizza.",
+          "The owners decided to go for more and open their second restaurant, and they entrusted us with its design.",
+          "Excited by the suggestive naming of the restaurant, we decided to take advantage of its storytelling and take it to space, representing the stories and iconographies of the Viking war stories, their formal and scenic aspects. Las Valkirias is a warm neighborhood pizzeria in South America but with a picturesque Nordic story to tell."
+        ]
+      }
+    },
+    {
+      "id": 80,
+      "slug": "taller-suarez",
+      "cover": "works/80/big0000.jpg",
+      "gallery": [
+        "galerias/161/big0000.jpg",
+        "galerias/161/big0001.jpg",
+        "galerias/157/big0000.jpg",
+        "galerias/157/big0001.jpg",
+        "galerias/158/big0000.jpg",
+        "galerias/158/big0001.jpg",
+        "galerias/159/big0000.jpg",
+        "galerias/159/big0001.jpg",
+        "galerias/160/big0000.jpg",
+        "galerias/160/big0001.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Taller Suarez",
+        "tagline": "Rebranding para un taller de alta gama",
+        "client": "Taller Suarez",
+        "industry": "Automotriz",
+        "services": [
+          "Diseño de identidad",
+          "Implementación de marca"
+        ],
+        "description": [
+          "Taller Suárez es el taller de chapa y pintura número uno en América Latina.",
+          "Allí reparan automóviles de algunas de las marcas más exigentes como Mercedes Benz, Audi, BMW, Porsche, entre otras líderes del sector.",
+          "Vinieron a nosotros en busca de generar una identidad de marca acorde a su posicionamiento en el mercado, su servicio de alta gama y sus exigentes clientes.",
+          "La marca anterior no representaba correctamente los atributos de calidad y el segmento de mercado al que nos dirigíamos, y asociaba a la empresa con otros talleres relacionados con el tuning y el rally, muy alejados de la actividad y los clientes de Taller Suárez.",
+          "Así que fuimos en busca de un nuevo signo, puro y sintético, que pudiera coexistir en el universo de las grandes marcas de automóviles. Lo mismo hicimos con la elección de los recursos del sistema gráfico. El eslogan, mientras tanto, tenía como objetivo dejar en claro la calidad de alta gama del servicio.",
+          "Desde 2012 hasta ahora, continuamos asesorando al taller en la implementación de su estrategia."
+        ]
+      },
+      "en": {
+        "title": "Taller Suarez",
+        "tagline": "Rebranding for a high-endworkshop",
+        "client": "Taller Suarez",
+        "industry": "Automotive",
+        "services": [
+          "Brand Identity",
+          "Brand Implementation"
+        ],
+        "description": [
+          "Taller Suarez is the number one paint and body workshop in Latin America.",
+          "The workshop repairs some of the most demanding brands such as Mercedes Benz, Audi, BMW, Porsche, among other leading brands.",
+          "They came to us in search of generating a brand identity according to their market positioning, their high-end service and their demanding customers.",
+          "The previous brand did not correctly represent the quality attributes and the market segment that we were targeting, and associated the company with other workshops related to tuning and rally, far removed from the activity and customers of Taller Suarez.",
+          "So we went in search of a new sign, pure and synthetic, that could coexist in the universe of the great automobile brands. This was also done with the choice of graphic system resources.",
+          "The slogan, meanwhile, was aimed at making clear the high-end quality of the service.",
+          "From 2012 until now, we continue advising the workshop on the implementation of its strategy."
+        ]
+      }
+    },
+    {
+      "id": 71,
+      "slug": "bat",
+      "cover": "works/71/big0000.jpg",
+      "gallery": [
+        "galerias/152/big0000.jpg",
+        "galerias/152/big0001.jpg",
+        "galerias/153/big0000.jpg",
+        "galerias/153/big0001.jpg",
+        "galerias/154/big0000.jpg",
+        "galerias/155/big0000.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "BAT",
+        "tagline": "Sobre hacerse visible entre gigantes",
+        "client": "BAT",
+        "industry": "Arquitectura",
+        "services": [
+          "Diseño de marca",
+          "Implementación de marca"
+        ],
+        "description": [
+          "BAT es un estudio profesional ubicado en Buenos Aires, especializado en la dirección y gestión de proyectos de arquitectura e ingeniería, conformado por un equipo de profesionales con amplia experiencia en el desarrollo de obras a gran escala.",
+          "Nos encargaron repensar su identidad de marca con el objetivo de generar un mayor impacto, especialmente en un área donde coexisten grandes corporaciones en la industria de la construcción.",
+          "Bajo este claro objetivo, propusimos una marca fuerte y altamente legible, acompañada de un discurso visual limpio y profesional."
+        ]
+      },
+      "en": {
+        "title": "BAT",
+        "tagline": "About getting visible between giants",
+        "client": "BAT",
+        "industry": "Architecture",
+        "services": [
+          "Branding",
+          "Brand Implementation"
+        ],
+        "description": [
+          "BAT is a professional studio located in Buenos Aires, specialized in the direction and management of architectural and engineering projects, made up of a team of professionals with extensive experience in the development of large-scale works.",
+          "We were commissioned to rethink their brand identity with the aim of generating greater impact, especially in an area where large corporations in the construction industry coexist.",
+          "Under this clear objective, we proposed a strong and highly readable brand, accompanied by a clean and professional visual discourse."
+        ]
+      }
+    },
+    {
+      "id": 75,
+      "slug": "le-sfogline",
+      "cover": "works/75/big0000.jpg",
+      "gallery": [
+        "galerias/168/big0000.jpg",
+        "galerias/168/big0001.jpg",
+        "galerias/169/big0000.jpg",
+        "galerias/169/big0001.jpg",
+        "galerias/170/big0000.jpg",
+        "galerias/170/big0001.jpg",
+        "galerias/171/big0000.jpg",
+        "galerias/171/big0001.jpg",
+        "galerias/172/big0000.jpg",
+        "galerias/172/big0001.jpg",
+        "galerias/173/big0000.jpg",
+        "galerias/173/big0001.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Le Sfogline",
+        "tagline": "Un rincón italiano para proponerle matrimonio",
+        "client": "Le Sfogline",
+        "industry": "Gastronomía",
+        "services": [
+          "Diseño de identidad",
+          "Diseño de interiores",
+          "Naming"
+        ],
+        "description": [
+          "Le Sfogline es un cálido ristorantino y fábrica de pasta y hecha a mano en Bernal, Argentina. En este país, la cultura italiana está profundamente arraigada en gran parte de su gente después de la fuerte inmigración que tuvo lugar a principios y mediados del siglo XX.",
+          "Nuestro trabajo consistió en definir el naming, diseñar el sistema de identidad y el diseño interior del restaurante.",
+          "Le Sfogline es el nombre italiano para aquellas mujeres que solían amasar pasta y todavía lo siguen haciendo hoy, preservando la tradición de la pasta hecha a mano. Tanto en el diseño de identidad como en el interior del restaurante, hemos tratado de representar la tradición y permitir a los clientes un viaje a través de una Italia nostálgica e icónica, presente en los recuerdos de gran parte de la sociedad argentina e inspirada en los abuelos y bisabuelos."
+        ]
+      },
+      "en": {
+        "title": "Le Sfogline",
+        "tagline": "Just an italian corner for your marriage proposal",
+        "client": "Le Sfogline",
+        "industry": "Hospitality",
+        "services": [
+          "Brand identity",
+          "Interior design",
+          "Naming"
+        ],
+        "description": [
+          "Le Sfogline is a warm ristorantino and handmade pasta factory in Bernal, Argentina.",
+          "In this country, Italian culture is deeply rooted in a large part of its people after the strong immigration that took place in the early and mid-20th century.",
+          "Our work consisted of both defining the name and designing the identity system and interior design of the restaurant.",
+          "Le Sfogline is the Italian name for those women who used to knead pasta and still continue to do so today, preserving the tradition of handmade pasta. Both in the identity design and in the interior of the restaurant, we have tried to represent tradition and allow customers a short trip through a nostalgic and iconic Italy, present in the memories of much of Argentine society and inspired by grandparents and great-grandparents."
+        ]
+      }
+    },
+    {
+      "id": 77,
+      "slug": "gran-premio-25-de-mayo",
+      "cover": "works/77/big0000.jpg",
+      "gallery": [
+        "galerias/134/big0000.jpg",
+        "galerias/134/big0001.jpg",
+        "galerias/135/big0000.jpg",
+        "galerias/135/big0001.jpg",
+        "galerias/135/big0002.jpg",
+        "galerias/136/big0000.jpg",
+        "galerias/136/big0001.jpg",
+        "galerias/136/big0002.jpg",
+        "galerias/137/big0000.jpg",
+        "galerias/137/big0001.jpg",
+        "galerias/137/big0002.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Gran Premio 25 de Mayo",
+        "tagline": "Un día en las carreras",
+        "client": "Hipódromo de San Isidro",
+        "industry": "Deportes",
+        "services": [
+          "Diseño de Campaña"
+        ],
+        "description": [
+          "El Gran Premio Internacional 25 de Mayo es uno de los premios más relevantes en el calendario ecuestre argentino. Se lleva a cabo en el hipódromo de San Isidro, que es uno de los más importantes de América Latina.",
+          "En su edición de 2016, nuestro estudio fue contratado para el diseño general del evento. A partir del diseño de identidad, resolvimos un sistema de piezas que incluía publicidad en vía púlica y en diferentes medios, invitaciones, redes sociales, señalización dentro del evento, guías de apuestas y otras piezas."
+        ]
+      },
+      "en": {
+        "title": "Gran Premio 25 de Mayo",
+        "tagline": "A Day at the Races",
+        "client": "Hipódromo de San Isidro",
+        "industry": "Sports",
+        "services": [
+          "Campaign design"
+        ],
+        "description": [
+          "The Gran Premio Internacional 25 de Mayo is one of the most relevant prizes in the Argentine equestrian calendar. It takes place at the San Isidro Racecourse, which itself is one of the most important in Latin America.",
+          "In its 2016 edition, our studio was hired for the general design of the event. Starting from the identity design, we solved a system of pieces that included street advertising and in different media, invitations, social networks, signage within the event, betting guides and others."
+        ]
+      }
+    },
+    {
+      "id": 89,
+      "slug": "casa-roma",
+      "cover": "works/89/big0000.jpg",
+      "gallery": [
+        "galerias/268/big0000.jpg",
+        "galerias/268/big0001.jpg",
+        "galerias/267/big0000.jpg",
+        "galerias/267/big0001.jpg",
+        "galerias/267/big0002.jpg",
+        "galerias/269/big0000.jpg",
+        "galerias/269/big0001.jpg",
+        "galerias/269/big0002.jpg",
+        "galerias/269/big0003.jpg"
+      ],
+      "videos": [],
+      "es": {
+        "title": "Casa Roma",
+        "tagline": "La vita e bella di più mangiando cosí",
+        "client": "Casa Roma",
+        "industry": "Gastronomía",
+        "services": [
+          "Branding",
+          "Diseño de interiores"
+        ],
+        "description": [
+          "Casa Roma es una tienda de fiambres y vinos de calidad premium. Motivados por la fuerza de su naming y las imágenes que nos inspira la cultura italiana y el universo de sabores que brindan a través de sus productos, el equipo de 1250 recreó un paisaje de quartiere italiano, aprovechando y complementando a través de los recursos gráficos y materiales los detalles de la arquitectura preexistente, las arcadas clásicas, el piso en damero y la herrería artística. Así, Casa Roma brinda una escena ideal para prepararse a saborear.",
+          ".",
+          ".",
+          ".",
+          "You can find us now at DesignRush.",
+          "Promote a Facebook Group",
+          "-",
+          "URL: https://www.designrush.com/agency/social-media-marketing/trends/how-to-promote-a-facebook-group"
+        ]
+      },
+      "en": {
+        "title": "Casa Roma",
+        "tagline": "La vita e bella di più mangiando cosí",
+        "client": "Casa Roma",
+        "industry": "Food & Drinks",
+        "services": [
+          "Brand Identity",
+          "Interior Design"
+        ],
+        "description": [
+          "Casa Roma is a premium quality deli and wine shop. Motivated by the strength of their naming and the images that Italian culture inspires us and the universe of flavors that they provide through their products, the 1250 team recreated an Italian quartiere landscape, taking advantage of and complementing them through graphic resources and materials the details of the pre-existing architecture, the classical arcades, the checkerboard floor and the artistic blacksmithing. Thus, Casa Roma provides an ideal scene to prepare to savor.",
+          ".",
+          ".",
+          ".",
+          "You can find us now at DesignRush.",
+          "Promote a Facebook Group",
+          "-",
+          "URL: https://www.designrush.com/agency/social-media-marketing/trends/how-to-promote-a-facebook-group"
+        ]
+      }
+    }
+  ]
+}

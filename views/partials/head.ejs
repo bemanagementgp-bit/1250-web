@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="<%= lang %>" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= title %></title>
+  <meta name="description" content="<%= locals.description || t.meta.description %>">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta property="og:title" content="<%= title %>">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="<%= t.locale %>">
+  <meta property="og:image" content="<%= locals.ogImage || '/media/1250-1080.jpg' %>">
+  <link rel="alternate" hreflang="es" href="<%= alt.es %>">
+  <link rel="alternate" hreflang="en" href="<%= alt.en %>">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/app.css">
+  <script>
+    document.documentElement.classList.replace('no-js', 'js');
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('reduced');
+    // Si el JS no llega a cargar, no dejamos la cortina tapando la página.
+    setTimeout(function () { if (!document.documentElement.classList.contains('ready')) document.documentElement.classList.add('fallback'); }, 4000);
+  </script>
+  <style>.no-js [data-transition], .fallback [data-transition], .no-js [data-preloader], .fallback [data-preloader] { display: none !important; } .no-js .img-reveal, .fallback .img-reveal { clip-path: none !important; }</style>
+</head>
+<body class="grain theme-dark bg-bg" data-page="<%= page %>" data-lang="<%= lang %>">
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-full focus:bg-bone focus:px-4 focus:py-2 focus:text-ink"><%= t.skip %></a>
+
+  <div data-transition class="pointer-events-none fixed inset-0 z-[150] flex" aria-hidden="true">
+    <% for (let i = 0; i < 5; i++) { %><div class="t-col bg-brand h-full flex-1 origin-top" style="transform:scaleY(1); background-size: 500% 100%; background-position: <%= i * 25 %>% 0"></div><% } %>
+  </div>
+
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="cursor-follower" aria-hidden="true"><span><%= t.cursor.view %></span></div>
+
+  <%- include('header') %>

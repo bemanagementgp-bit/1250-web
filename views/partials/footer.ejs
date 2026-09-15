@@ -1,0 +1,72 @@
+<footer data-footer>
+  <section class="theme-brand bg-brand relative overflow-hidden" data-theme="brand">
+    <div class="hero-mesh pointer-events-none absolute inset-0 opacity-60" aria-hidden="true"><span></span><span></span><span></span></div>
+    <div class="container-x section-y relative">
+      <p class="eyebrow mb-10 flex items-center gap-3 !text-fg/80"><span class="relative flex h-2 w-2"><span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-bone opacity-70"></span><span class="relative inline-flex h-2 w-2 rounded-full bg-bone"></span></span><%= t.footer.available %></p>
+
+      <a href="mailto:<%= agency.email %>?subject=<%= encodeURIComponent(t.footer.subject) %>" class="group block" data-cursor="<%= t.cursor.write %>">
+        <h2 class="display text-giant" data-split-lines><%- t.footer.idea %></h2>
+        <span class="mt-10 inline-flex items-center gap-4 text-2xl tracking-tight sm:text-4xl lg:text-5xl">
+          <span class="relative">
+            <span class="block"><%= agency.email %></span>
+            <span class="absolute -bottom-1 left-0 h-[2px] w-full origin-right scale-x-0 bg-bone transition-transform duration-700 ease-[var(--ease-expo)] group-hover:origin-left group-hover:scale-x-100"></span>
+          </span>
+          <span class="grid h-12 w-12 place-items-center rounded-full bg-bone text-brand-600 transition-transform duration-700 ease-[var(--ease-expo)] group-hover:rotate-45 sm:h-16 sm:w-16">
+            <svg class="h-5 w-5 sm:h-6 sm:w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </span>
+        </span>
+      </a>
+    </div>
+    <p class="display pointer-events-none -mb-[4.5vw] select-none text-center text-[31vw] leading-[0.75] text-bone/10" aria-hidden="true" data-footer-mega>1250</p>
+  </section>
+
+  <section class="theme-dark bg-bg" data-theme="dark">
+    <div class="container-x grid gap-10 py-16 text-sm sm:grid-cols-2 lg:grid-cols-4 lg:py-20">
+      <div>
+        <p class="eyebrow mb-4"><%= t.footer.studio %></p>
+        <address class="not-italic leading-relaxed text-fg/80">
+          <% agency.address.lines.forEach(l => { %><%= l %><br><% }) %>
+          <%= agency.address.city %>, <%= agency.address.region[lang] %>
+        </address>
+      </div>
+      <div>
+        <p class="eyebrow mb-4"><%= t.footer.partners %></p>
+        <ul class="space-y-3">
+          <% agency.founders.forEach(f => { %>
+            <li><span class="block"><%= f.name %></span><a class="link-u text-fg/60" href="mailto:<%= f.email %>"><%= f.email %></a></li>
+          <% }) %>
+        </ul>
+      </div>
+      <div>
+        <p class="eyebrow mb-4"><%= t.footer.social %></p>
+        <ul class="space-y-2">
+          <% agency.socials.forEach(s => { %><li><a class="link-u text-fg/80" href="<%= s.url %>" target="_blank" rel="noopener"><%= s.name %></a></li><% }) %>
+        </ul>
+      </div>
+      <div>
+        <p class="eyebrow mb-4"><%= t.footer.navigation %></p>
+        <ul class="space-y-2">
+          <li><a class="link-u text-fg/80" href="<%= url('works') %>"><%= t.nav.works %></a></li>
+          <li><a class="link-u text-fg/80" href="<%= url('service') %>"><%= t.nav.service %></a></li>
+          <li><a class="link-u text-fg/80" href="<%= url('about') %>"><%= t.nav.about %></a></li>
+          <li><a class="link-u text-fg/80" href="<%= url('contact') %>"><%= t.nav.contact %></a></li>
+          <li><button type="button" class="link-u text-fg/80" data-scroll-top><%= t.footer.top %> ↑</button></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container-x flex flex-col justify-between gap-2 border-t border-fg/10 py-6 font-mono text-[0.62rem] uppercase tracking-[0.18em] text-fg/45 sm:flex-row">
+      <span>© <%= year %> 1250</span>
+      <span><%= agency.address.coords %> — Manuel B. Gonnet</span>
+    </div>
+  </section>
+</footer>
+
+<script src="/vendor/gsap/gsap.min.js"></script>
+<script src="/vendor/gsap/ScrollTrigger.min.js"></script>
+<script src="/vendor/gsap/SplitText.min.js"></script>
+<script src="/vendor/gsap/Flip.min.js"></script>
+<script src="/vendor/lenis/lenis.min.js"></script>
+<script>window.I18N = <%- JSON.stringify({ copy: t.contact.copy, copied: t.contact.copied, sending: t.contact.sending, sent: t.contact.sent, retry: t.contact.retry, submit: t.contact.submit }) %>;</script>
+<script src="/js/main.js" type="module"></script>
+</body>
+</html>

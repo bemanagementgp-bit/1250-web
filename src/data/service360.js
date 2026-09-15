@@ -1,0 +1,116 @@
+// Servicio 360 — Creative Brand Marketing.
+// Fuente: propuesta-creative-brand-marketing-1250.html (sin packs, precios, equipo ni equipamiento).
+module.exports = {
+  es: {
+    meta: 'Servicio 360 — Creative Brand Marketing — 1250',
+    description: 'Estrategia de marca, contenido y performance trabajando en una misma dirección.',
+    eyebrow: 'Servicio 360',
+    name: 'Creative Brand Marketing',
+    title: ['Brand', 'Marketing', '360°'],
+    lead: 'Una nueva forma de hacer crecer tus ventas y la imagen de tu empresa.',
+    sub: 'Estrategia de marca, contenido y performance trabajando en una misma dirección.',
+    view: {
+      eyebrow: 'Nuestra mirada',
+      scope: ['Análisis de posicionamiento', 'Construcción de marca', 'Definición de mensajes', 'Dirección creativa', 'Coherencia visual y conceptual', 'Acompañamiento en comunicación'],
+      title: 'Un equipo que combina marketing digital, branding y <em>visión de negocio</em>.',
+      body: [
+        'Después de más de 15 años acompañando a empresas en procesos de construcción de marca y comunicación, entendemos que los mejores resultados se logran cuando la estrategia, la creatividad y la ejecución trabajan en la misma dirección.',
+        'Las acciones de marketing digital son fundamentales para generar visibilidad, oportunidades comerciales y crecimiento. Pero su impacto es mayor cuando forman parte de una visión más amplia de marca y posicionamiento.',
+        'Por eso combinamos experiencia en branding, comunicación y diseño estratégico con el trabajo de nuestros especialistas en marketing digital y performance. Así, cada campaña, contenido y acción aporta tanto a los objetivos comerciales de corto plazo como a la construcción de valor de la marca en el tiempo.',
+        'Nuestro rol es ayudar a que la comunicación sea consistente, relevante y alineada con los desafíos del negocio, integrando la gestión cotidiana del marketing con una mirada estratégica de largo plazo.',
+      ],
+    },
+    method: {
+      eyebrow: 'Metodología',
+      title: '¿Cómo <em>trabajamos</em>?',
+      lead: 'Un servicio mensual que combina estrategia de marca, producción de contenidos y administración de campañas publicitarias.',
+      loop: 'Un ciclo continuo',
+      steps: [
+        { title: 'Pensamos', text: 'Analizamos el negocio, el mercado, la competencia y los objetivos comerciales.' },
+        { title: 'Definimos', text: 'Construimos estrategias de comunicación y prioridades para cada etapa.' },
+        { title: 'Ejecutamos', text: 'Desarrollamos contenidos, campañas y acciones coordinadas.' },
+        { title: 'Medimos', text: 'Analizamos resultados y detectamos oportunidades de mejora.' },
+        { title: 'Evolucionamos', text: 'Ajustamos continuamente la comunicación para fortalecer la marca y mejorar el rendimiento.' },
+      ],
+    },
+    scope: {
+      eyebrow: 'Servicio integral',
+      title: 'Alcance del <em>servicio</em>',
+      lead: 'Una visión de marca que se traduce en acciones concretas, medibles y sostenidas en el tiempo.',
+      items: [
+        { title: 'Estrategia digital', text: 'Definición del enfoque de comunicación en entornos digitales, identificación de audiencias, establecimiento de objetivos y planificación de acciones en función de las prioridades comerciales.' },
+        { title: 'Gestión de redes y campañas', text: 'Administración de perfiles institucionales y ejecución de campañas publicitarias en plataformas digitales, con foco en ampliar el alcance, atraer públicos relevantes y consolidar la presencia de la marca.' },
+        { title: 'Optimización y seguimiento', text: 'Análisis periódico de resultados, elaboración de reportes y ajustes en la estrategia para mejorar el rendimiento de las acciones y acompañar la evolución del negocio.' },
+        { title: 'Producción audiovisual y contenidos', text: 'Desarrollo de piezas fotográficas, audiovisuales y gráficas con recursos de producción profesional. Contamos con infraestructura técnica propia y aplicamos IA en edición, optimización y generación de recursos visuales innovadores.' },
+      ],
+    },
+    planning: {
+      eyebrow: 'Gestión continua',
+      title: 'Planificación <em>mensual</em>',
+      lead: 'Planificamos, producimos, publicamos y optimizamos con una dinámica mensual.',
+      cards: [
+        { tag: 'Crecimiento orgánico', title: 'Gestión de redes', items: ['Planificación mensual del contenido.', 'Diseño de historias y publicaciones.', 'Programación y subida de contenidos acorde a la estrategia.', 'Guion, edición y subida de creativos.', 'Reorganización y optimización de perfil: links y bio.', 'Recolección y análisis de métricas al final de cada mes para realizar los ajustes necesarios.'] },
+        { tag: 'Meta Ads', title: 'Campañas publicitarias', items: ['Creación de campañas de conversión, leads y/o alcance.', 'Creación de conjuntos de anuncios según el público objetivo.', 'Determinación del presupuesto publicitario.', 'Revisión diaria de las campañas.', 'Ajustes cada 7 días cuando sea necesario.', 'Reporte y análisis de resultados mensuales.'] },
+        { tag: 'Contenido', title: 'Producción audiovisual', items: ['Edición y guionado.', 'Subida de todo el contenido generado a una carpeta de Google Drive.', 'Edición del contenido e implementación de IA generativa cuando se requiera.'] },
+      ],
+    },
+    cta: { eyebrow: 'Próximo paso', title: 'Hagamos crecer <em>tu marca</em>.', button: 'Hablemos' },
+    teaser: { eyebrow: 'Nuevo', title: 'Servicio 360 — Creative Brand Marketing', text: 'Estrategia de marca, contenido y performance en un mismo servicio mensual.', cta: 'Conocé el servicio' },
+  },
+  en: {
+    meta: '360 Service — Creative Brand Marketing — 1250',
+    description: 'Brand strategy, content and performance working in the same direction.',
+    eyebrow: '360 Service',
+    name: 'Creative Brand Marketing',
+    title: ['Brand', 'Marketing', '360°'],
+    lead: 'A new way to grow your sales and your company’s image.',
+    sub: 'Brand strategy, content and performance working in the same direction.',
+    view: {
+      eyebrow: 'Our perspective',
+      scope: ['Positioning analysis', 'Brand building', 'Message definition', 'Creative direction', 'Visual and conceptual coherence', 'Communication support'],
+      title: 'A team that combines digital marketing, branding and <em>business vision</em>.',
+      body: [
+        'After more than 15 years helping companies build their brands and communication, we know the best results come when strategy, creativity and execution move in the same direction.',
+        'Digital marketing is essential to generate visibility, business opportunities and growth. But its impact is greater when it is part of a broader vision of brand and positioning.',
+        'That is why we combine our experience in branding, communication and strategic design with the work of our digital marketing and performance specialists. Every campaign, piece of content and action contributes both to short-term business goals and to building brand value over time.',
+        'Our role is to keep communication consistent, relevant and aligned with the challenges of the business, bringing together day-to-day marketing management and a long-term strategic view.',
+      ],
+    },
+    method: {
+      eyebrow: 'Methodology',
+      title: 'How we <em>work</em>',
+      lead: 'A monthly service that combines brand strategy, content production and advertising campaign management.',
+      loop: 'A continuous cycle',
+      steps: [
+        { title: 'Think', text: 'We analyse the business, the market, the competition and the commercial goals.' },
+        { title: 'Define', text: 'We build communication strategies and priorities for each stage.' },
+        { title: 'Execute', text: 'We produce content, campaigns and coordinated actions.' },
+        { title: 'Measure', text: 'We analyse results and spot opportunities for improvement.' },
+        { title: 'Evolve', text: 'We keep refining communication to strengthen the brand and improve performance.' },
+      ],
+    },
+    scope: {
+      eyebrow: 'Full service',
+      title: 'Service <em>scope</em>',
+      lead: 'A brand vision translated into concrete, measurable and sustained actions.',
+      items: [
+        { title: 'Digital strategy', text: 'Defining the communication approach in digital channels, identifying audiences, setting goals and planning actions around business priorities.' },
+        { title: 'Social media & campaigns', text: 'Managing brand profiles and running advertising campaigns on digital platforms, focused on expanding reach, attracting relevant audiences and strengthening the brand’s presence.' },
+        { title: 'Optimisation & tracking', text: 'Regular performance analysis, reporting and strategy adjustments to improve results and keep pace with the business.' },
+        { title: 'Audiovisual production & content', text: 'Photo, video and graphic pieces made with professional production resources. We have our own technical infrastructure and use AI for editing, optimisation and innovative visual assets.' },
+      ],
+    },
+    planning: {
+      eyebrow: 'Ongoing management',
+      title: 'Monthly <em>planning</em>',
+      lead: 'We plan, produce, publish and optimise on a monthly cycle.',
+      cards: [
+        { tag: 'Organic growth', title: 'Social media management', items: ['Monthly content planning.', 'Stories and post design.', 'Scheduling and publishing content according to the strategy.', 'Scripting, editing and uploading creatives.', 'Profile reorganisation and optimisation: links and bio.', 'Monthly metrics collection and analysis to make the necessary adjustments.'] },
+        { tag: 'Meta Ads', title: 'Advertising campaigns', items: ['Conversion, lead and/or reach campaigns.', 'Ad sets built around the target audience.', 'Advertising budget definition.', 'Daily campaign review.', 'Adjustments every 7 days when needed.', 'Monthly results report and analysis.'] },
+        { tag: 'Content', title: 'Audiovisual production', items: ['Editing and scripting.', 'Delivery of all generated content in a Google Drive folder.', 'Content editing and generative AI when required.'] },
+      ],
+    },
+    cta: { eyebrow: 'Next step', title: 'Let’s grow <em>your brand</em>.', button: 'Let’s talk' },
+    teaser: { eyebrow: 'New', title: '360 Service — Creative Brand Marketing', text: 'Brand strategy, content and performance in one monthly service.', cta: 'Discover the service' },
+  },
+};

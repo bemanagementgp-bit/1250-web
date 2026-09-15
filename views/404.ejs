@@ -1,0 +1,12 @@
+<%- include('partials/head') %>
+
+<main id="main" class="theme-light bg-bg grid min-h-[100svh] place-items-center" data-theme="light">
+  <div class="container-x py-32 text-center">
+    <p class="eyebrow mb-6">Error 404</p>
+    <h1 class="display text-mega"><span class="line-mask"><span class="block" data-hero-line>4<em class="text-accent">0</em>4</span></span></h1>
+    <p class="mx-auto mt-8 max-w-md text-lg text-fg/60"><%= t.notFound.text %></p>
+    <a href="<%= url('home') %>" class="btn-brand mt-10" data-magnetic><span><%= t.notFound.cta %></span><span aria-hidden="true">→</span></a>
+  </div>
+</main>
+
+<%- include('partials/footer') %>

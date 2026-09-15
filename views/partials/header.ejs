@@ -1,0 +1,55 @@
+<%
+  const nav = [
+    { key: 'works', label: t.nav.works, sup: totalWorks },
+    { key: 'service', label: t.nav.service },
+    { key: 'about', label: t.nav.about },
+    { key: 'contact', label: t.nav.contact },
+  ];
+  const isActive = (key) => page === key || (key === 'works' && page === 'work');
+%>
+<header data-header data-theme="dark" class="fixed inset-x-0 top-0 z-[80]">
+  <div class="container-x flex h-20 items-center justify-between lg:h-24">
+    <a href="<%= url('home') %>" class="relative z-10" aria-label="1250" data-magnetic>
+      <%- include('logo', { cls: 'h-9 w-auto lg:h-10' }) %>
+    </a>
+
+    <nav class="absolute left-1/2 hidden -translate-x-1/2 items-center gap-8 md:flex lg:gap-12" aria-label="Principal">
+      <% nav.forEach(item => { %>
+        <a href="<%= url(item.key) %>" class="group relative text-[0.95rem] font-medium tracking-tight" <%= isActive(item.key) ? 'aria-current=page' : '' %>>
+          <span class="relative -my-[0.25em] block overflow-hidden py-[0.25em]">
+            <span class="block transition-transform duration-500 ease-[var(--ease-expo)] group-hover:-translate-y-full"><%= item.label %></span>
+            <span class="absolute inset-0 translate-y-full font-serif text-[1.1rem] italic leading-none transition-transform duration-500 ease-[var(--ease-expo)] group-hover:translate-y-0"><%= item.label %></span>
+          </span>
+          <% if (item.sup) { %><sup class="absolute -right-5 -top-1.5 font-mono text-[0.58rem] opacity-50"><%= item.sup %></sup><% } %>
+          <span class="absolute -bottom-2.5 left-1/2 h-1 w-1 -translate-x-1/2 rounded-full bg-current transition-transform duration-500 <%= isActive(item.key) ? 'scale-100' : 'scale-0' %>"></span>
+        </a>
+      <% }) %>
+    </nav>
+
+    <div class="relative z-10 flex items-center gap-5">
+      <span class="hidden font-mono text-[0.65rem] uppercase tracking-[0.18em] opacity-60 xl:block" data-clock data-city="<%= t.city %>"><%= t.city %> —:—</span>
+      <div class="flex items-center rounded-full border border-current/25 p-1 font-mono text-[0.68rem] uppercase tracking-[0.12em]" role="group" aria-label="<%= t.nav.lang %>">
+        <% ['es', 'en'].forEach(l => { %>
+          <a href="<%= alt[l] %>" hreflang="<%= l %>" lang="<%= l %>" data-lang-switch class="relative grid h-8 w-9 place-items-center rounded-full transition-colors duration-300 <%= l === lang ? 'bg-current' : 'opacity-60 hover:opacity-100' %>" <%= l === lang ? 'aria-current=true' : '' %>>
+            <span data-lang-label><%= l %></span>
+          </a>
+        <% }) %>
+      </div>
+      <button type="button" data-menu-toggle class="group relative grid h-11 w-11 place-items-center rounded-full border border-current/25 md:hidden" aria-expanded="false" aria-controls="mobile-menu" aria-label="<%= t.nav.menu %>">
+        <span class="absolute h-px w-5 -translate-y-1 bg-current transition-transform duration-500 group-aria-expanded:translate-y-0 group-aria-expanded:rotate-45"></span>
+        <span class="absolute h-px w-5 translate-y-1 bg-current transition-transform duration-500 group-aria-expanded:translate-y-0 group-aria-expanded:-rotate-45"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div id="mobile-menu" data-menu class="theme-brand bg-brand invisible fixed inset-0 z-[70] flex flex-col justify-between pb-8 pt-28 md:hidden" style="clip-path: inset(0 0 100% 0)">
+  <nav class="container-x flex flex-col gap-1" aria-label="Menú">
+    <% nav.forEach((item, i) => { %>
+      <a href="<%= url(item.key) %>" class="line-mask display text-[14vw]"><span class="block" data-menu-item><%= item.label %><sup class="ml-2 align-top font-mono text-xs tracking-normal opacity-60">0<%= i + 1 %></sup></span></a>
+    <% }) %>
+  </nav>
+  <div class="container-x flex flex-wrap gap-x-6 gap-y-2 text-sm opacity-80">
+    <% agency.socials.forEach(s => { %><a href="<%= s.url %>" target="_blank" rel="noopener"><%= s.name %></a><% }) %>
+  </div>
+</div>

@@ -1,0 +1,234 @@
+<%- include('partials/head') %>
+<%
+  const heroMedia = featured.slice(0, 6);
+  const renderLine = (line) => line
+    .replace('{media}', `<span class="hero-pill relative mx-[0.12em] inline-block h-[0.74em] w-[1.75em] translate-y-[-0.04em] overflow-hidden rounded-full align-middle" data-hero-pill>${heroMedia.map((w, i) => pic(w.cover, { sizes: '30vw', cls: 'absolute inset-0 block', imgCls: 'h-full w-full object-cover', eager: i === 0, attrs: 'data-pill-img' })).join('')}</span>`)
+    .replace('{arrow}', `<span class="bg-brand relative mx-[0.12em] inline-grid h-[0.74em] w-[1.35em] translate-y-[-0.04em] place-items-center overflow-hidden rounded-full align-middle" data-hero-pill><svg class="arrow-loop h-[0.36em] w-[0.36em] text-bone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span>`);
+  const industries = new Set(works.map(w => w.industry.toLowerCase())).size;
+%>
+
+<!-- Preloader -->
+<div data-preloader class="theme-brand bg-brand fixed inset-0 z-[160] flex flex-col justify-between" aria-hidden="true">
+  <div class="container-x flex justify-between pt-6 font-mono text-[0.65rem] uppercase tracking-[0.18em] text-fg/70">
+    <span>1250</span><span><%= t.hero.label %></span>
+  </div>
+  <div class="grid place-items-center">
+    <svg viewBox="0 0 230 300" class="h-36 w-auto sm:h-52" fill="none" stroke="currentColor" stroke-width="1.2" data-preloader-logo>
+      <path d="M165.3,153.9c-35.7,0-61.9,29.9-61.9,70.9c0,0.7,0,1.4,0,2c-7.8-13.2-23-20.3-41.2-20.3c-17.7,0-36.5,6.4-46.8,21.2l7.2-36.7h80.8l8.8-45.8h86.5l9.9-51.8h-1.9c-7.4,13.8-21,16.9-52.8,16.9h-18.4c36.7-17.9,68.1-35.3,68.1-64.1c0-22.1-18.6-39.8-51.6-39.8c-27.4,0-52.2,16.5-52.2,34.9c0,10.3,6.6,16.9,16.3,16.9c19.4,0,23.9-24.7,20.8-49.1c15.5,5.6,25,21.5,25,43.1c0,36.5-27.4,58.8-63.4,90.5c-9.4-4.5-12.2-15-12.2-39.7V4.4h-1.7L21.4,47.7l0.6,1.6l3.9-0.8c11.3-2.3,17.5,2.7,17.5,16.3V103c0,27.4-3.5,37.3-15.5,41v1.2h69.7h4.1h8.2c-7.7,12-24.7,11.6-56.5,11.6H25.9l-14.2,75.5l1.2,0.2c7.4-6.8,16.9-9.5,26-9.5c19.2,0,28.5,12.6,28.5,32.4c0,20.2-9.5,35.1-28.5,37.5c3.9-22.1-0.4-44.3-19.2-44.3c-9.9,0-16.9,6.6-16.9,16.9c0,18.6,22.5,30.1,49.1,30.1c31.3,0,53.9-15,56.9-40.4c9.5,24.5,30.5,40.4,56.7,40.4c35.5,0,61.7-29.9,61.7-70.9C227.2,183.8,201,153.9,165.3,153.9 M165.5,293.7c-13.6,0-18.4-20-18.4-68.9s4.9-68.9,18.2-68.9c13.4,0,18.2,20,18.2,68.9S178.9,293.7,165.5,293.7"/>
+    </svg>
+  </div>
+  <div class="container-x flex items-end justify-between pb-6">
+    <span class="display text-[22vw] leading-[0.78] sm:text-[13vw]" data-preloader-count>0000</span>
+    <span class="mb-3 h-px w-1/3 origin-left scale-x-0 bg-bone" data-preloader-bar></span>
+  </div>
+</div>
+
+<main id="main">
+  <!-- ============================================================ HERO -->
+  <section class="theme-dark bg-bg relative flex min-h-[100svh] flex-col overflow-hidden" data-theme="dark" data-hero>
+    <div class="pointer-events-none absolute inset-0" aria-hidden="true">
+      <div class="hero-mesh absolute inset-0" data-hero-mesh><span></span><span></span><span></span></div>
+      <div class="hero-grid absolute inset-0"></div>
+      <div class="absolute -left-[20vw] -top-[20vw] h-[40vw] w-[40vw] rounded-full opacity-0 blur-[80px]" style="background: radial-gradient(circle, rgb(165 139 255 / .35), transparent 65%)" data-spotlight></div>
+    </div>
+
+    <div class="container-x relative flex flex-1 flex-col pb-8 pt-28 lg:pb-10 lg:pt-32">
+      <!-- meta -->
+      <div class="grid grid-cols-2 gap-6 border-t border-fg/10 pt-4 font-mono text-[0.65rem] uppercase tracking-[0.18em] text-fg/55 lg:grid-cols-6" data-hero-fade>
+        <span>(<%= lang.toUpperCase() %>) — 1250</span>
+        <span class="hidden lg:block"><%= t.hero.label %></span>
+        <span class="hidden lg:col-start-5 lg:block"><%= agency.address.coords %></span>
+        <span class="text-right"><%= agency.address.city %></span>
+      </div>
+
+      <!-- titular -->
+      <h1 class="display my-auto py-10 text-[length:var(--text-hero)] leading-[0.9]" aria-label="<%= t.hero.aria %>">
+        <% t.hero.lines.forEach((line, i) => { %>
+          <span class="line-mask whitespace-nowrap <%= ['', 'pl-[9vw]', 'text-right'][i] %>" aria-hidden="true"><span class="block" data-hero-line><%- renderLine(line) %></span></span>
+        <% }) %>
+      </h1>
+
+      <!-- base -->
+      <div class="grid items-end gap-8 lg:grid-cols-6" data-hero-fade>
+        <p class="max-w-sm text-base leading-relaxed text-fg/70 lg:col-span-2 lg:text-lg"><%= t.hero.intro %></p>
+        <div class="flex flex-wrap items-center gap-3 lg:col-span-2 lg:col-start-3">
+          <a href="<%= url('works') %>" class="btn-brand" data-magnetic><span><%= t.hero.cta %></span><sup class="font-mono text-[0.6rem] opacity-70"><%= works.length %></sup><span aria-hidden="true">→</span></a>
+          <a href="<%= url('about') %>" class="btn-pill" data-magnetic><span><%= t.manifesto.cta %></span></a>
+        </div>
+        <div class="hidden items-center justify-end gap-4 lg:col-span-2 lg:flex">
+          <span class="eyebrow"><%= t.hero.scroll %></span>
+          <span class="relative h-12 w-px overflow-hidden bg-fg/15"><span class="absolute inset-x-0 top-0 h-1/2 bg-fg" data-scroll-line></span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ MANIFIESTO (claro) -->
+  <section class="theme-light bg-bg relative" data-theme="light">
+    <div class="container-x section-y">
+      <div class="grid gap-10 lg:grid-cols-12">
+        <p class="eyebrow lg:col-span-3"><span class="lg:sticky lg:top-32">(01) — <%= t.manifesto.eyebrow %></span></p>
+        <div class="lg:col-span-9">
+          <p class="text-[clamp(1.9rem,4.4vw,4.4rem)] font-medium leading-[1.08] tracking-[-0.035em]" data-scrub-words><%= t.manifesto.text %></p>
+          <div class="mt-14 flex flex-wrap items-center gap-6">
+            <a href="<%= url('about') %>" class="btn-pill" data-magnetic><span><%= t.manifesto.cta %></span><span aria-hidden="true">→</span></a>
+            <span class="text-sm text-fg/55"><%= t.manifesto.reach %></span>
+          </div>
+        </div>
+      </div>
+
+      <dl class="mt-24 grid grid-cols-2 border-t border-fg/15 lg:mt-36 lg:grid-cols-4">
+        <%
+          const stats = [
+            { n: works.length, suf: '', label: t.stats.works },
+            { n: 4, suf: '', label: t.stats.countries },
+            { n: Math.floor(industries / 5) * 5, suf: '+', label: t.stats.industries },
+            { n: 6, suf: '', label: t.stats.disciplines },
+          ];
+        %>
+        <% stats.forEach((s, i) => { %>
+          <div class="flex flex-col justify-between gap-10 border-fg/15 py-8 pr-6 <%= i % 2 ? 'pl-6 border-l' : '' %> <%= i === 2 ? 'lg:border-l lg:pl-6' : '' %> <%= i > 1 ? 'border-t lg:border-t-0' : '' %>">
+            <dt class="eyebrow"><%= s.label %></dt>
+            <dd class="display text-[clamp(3.5rem,8vw,7.5rem)]"><span data-count="<%= s.n %>">0</span><span class="text-accent"><%= s.suf %></span></dd>
+          </div>
+        <% }) %>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ============================================================ MARQUEE (violeta) -->
+  <section class="theme-brand bg-brand relative overflow-hidden py-6 lg:py-8" data-theme="brand" aria-label="<%= t.services.eyebrow %>">
+    <div class="marquee-track flex w-max" style="--dur:30s" data-velocity-skew>
+      <% for (let r = 0; r < 2; r++) { %>
+        <div class="display flex shrink-0 items-center gap-10 py-[0.12em] pr-10 text-5xl leading-[1.05] sm:text-7xl lg:text-8xl" <%= r ? 'aria-hidden=true' : '' %>>
+          <% t.marquee.forEach((word, k) => { %>
+            <span class="<%= k % 2 ? 'font-serif font-normal italic tracking-[-0.02em]' : '' %>"><%= word %></span>
+            <svg class="h-8 w-8 shrink-0 sm:h-12 sm:w-12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg>
+          <% }) %>
+        </div>
+      <% } %>
+    </div>
+  </section>
+
+  <!-- ============================================================ DESTACADOS (oscuro, horizontal) -->
+  <section class="theme-dark bg-bg relative" data-theme="dark" data-hscroll>
+    <div class="flex h-[100svh] flex-col justify-center overflow-hidden pb-8 pt-24 lg:pb-10 lg:pt-28" data-hscroll-pin>
+      <div class="container-x mb-8 flex items-end justify-between gap-6 lg:mb-10">
+        <div>
+          <p class="eyebrow mb-5">(02) — <%= t.featured.eyebrow %></p>
+          <h2 class="display text-huge accent-em"><%- t.featured.title %></h2>
+        </div>
+        <div class="hidden items-center gap-4 sm:flex">
+          <span class="font-mono text-xs"><span data-hscroll-current>01</span> / <%= String(featured.length).padStart(2, '0') %></span>
+          <span class="relative h-px w-40 bg-fg/15"><span class="absolute inset-0 origin-left scale-x-0 bg-fg" data-hscroll-bar></span></span>
+        </div>
+      </div>
+
+      <div class="flex w-max gap-5 pr-[clamp(1.25rem,4vw,4rem)] sm:gap-8" style="padding-left: max(clamp(1.25rem, 4vw, 4rem), calc((100vw - 1920px) / 2 + 4rem))" data-hscroll-track>
+        <% featured.forEach((w, i) => { %>
+          <a href="<%= url('work', w.slug) %>" class="group relative block w-[80vw] shrink-0 sm:w-[min(46vw,40svh)] lg:w-[min(30vw,37svh)]" data-cursor="<%= t.cursor.case %>" data-hscroll-card>
+            <div class="relative aspect-[4/5] overflow-hidden rounded-2xl bg-card">
+              <%- pic(w.cover, { alt: w.title, sizes: '(min-width:1024px) 32vw, 80vw', cls: 'absolute inset-0 block', imgCls: 'h-full w-[130%] max-w-none object-cover transition-transform duration-[1.4s] ease-[var(--ease-expo)] group-hover:scale-105', attrs: 'data-hscroll-img' }) %>
+              <span class="absolute left-4 top-4 rounded-full bg-ink/60 px-3 py-1 font-mono text-[0.62rem] uppercase tracking-widest text-bone backdrop-blur"><%= String(i + 1).padStart(2, '0') %></span>
+              <div class="absolute inset-x-4 bottom-4 flex flex-wrap gap-2 opacity-0 transition-all duration-500 group-hover:opacity-100">
+                <% w.services.slice(0, 3).forEach(s => { %><span class="rounded-full bg-bone/90 px-3 py-1 text-xs text-ink backdrop-blur"><%= s %></span><% }) %>
+              </div>
+            </div>
+            <div class="mt-5 flex items-start justify-between gap-4">
+              <div>
+                <h3 class="text-2xl font-semibold tracking-tight lg:text-3xl"><%= w.title %></h3>
+                <p class="mt-1 font-serif text-lg italic text-fg/60"><%= w.tagline %></p>
+              </div>
+              <span class="mt-1 grid h-10 w-10 shrink-0 place-items-center rounded-full border border-fg/20 transition-all duration-500 group-hover:rotate-45 group-hover:border-transparent group-hover:bg-brand-600 group-hover:text-bone">↗</span>
+            </div>
+          </a>
+        <% }) %>
+        <a href="<%= url('works') %>" class="bg-brand group grid aspect-[4/5] w-[62vw] shrink-0 self-start place-items-center rounded-2xl text-bone sm:w-[min(30vw,32svh)] lg:w-[min(22vw,30svh)]" data-cursor="<%= t.cursor.all %>">
+          <span class="text-center">
+            <span class="display block text-7xl lg:text-9xl"><%= works.length %></span>
+            <span class="mt-3 block text-lg"><%= t.featured.all %> <span class="inline-block transition-transform duration-500 group-hover:translate-x-2">→</span></span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ SERVICIOS (claro) -->
+  <section class="theme-light bg-bg relative" data-theme="light">
+    <div class="container-x section-y">
+      <div class="mb-16 grid gap-8 lg:mb-24 lg:grid-cols-12">
+        <p class="eyebrow lg:col-span-3">(03) — <%= t.services.eyebrow %></p>
+        <h2 class="display text-huge accent-em lg:col-span-9" data-split-lines><%- t.services.title %></h2>
+      </div>
+
+      <div class="border-t border-fg/15">
+        <% about.services.forEach((s, i) => { %>
+          <details class="group border-b border-fg/15" data-service <%= i === 0 ? 'open' : '' %>>
+            <summary class="flex cursor-pointer list-none items-center gap-5 py-8 lg:gap-12 lg:py-11 [&::-webkit-details-marker]:hidden" data-cursor="<%= t.cursor.open %>">
+              <span class="w-8 font-mono text-sm text-fg/50"><%= s.n %></span>
+              <h3 class="display flex-1 text-[clamp(2rem,6vw,6.5rem)] transition-all duration-500 group-hover:translate-x-3 group-open:text-accent"><%= s.title %></h3>
+              <span class="grid h-12 w-12 shrink-0 place-items-center rounded-full border border-fg/20 transition-all duration-500 group-open:rotate-45 group-open:border-transparent group-open:bg-brand-600 group-open:text-bone lg:h-16 lg:w-16">
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 5v14M5 12h14"/></svg>
+              </span>
+            </summary>
+            <div class="grid gap-10 pb-12 lg:grid-cols-12 lg:pb-16" data-service-body>
+              <div class="lg:col-span-5 lg:col-start-2">
+                <p class="font-serif text-3xl italic lg:text-4xl"><%= s.lead %></p>
+                <p class="mt-6 max-w-xl leading-relaxed text-fg/65"><%= s.body %></p>
+              </div>
+              <ul class="grid content-start lg:col-span-5 lg:col-start-8">
+                <% s.items.forEach(item => { %>
+                  <li class="flex items-center justify-between border-b border-fg/10 py-3 text-lg"><span><%= item %></span><span class="text-accent" aria-hidden="true">✦</span></li>
+                <% }) %>
+              </ul>
+            </div>
+          </details>
+        <% }) %>
+      </div>
+
+      <a href="<%= url('service') %>" class="theme-dark bg-bg group relative mt-16 block overflow-hidden rounded-3xl p-7 sm:p-10 lg:mt-24 lg:p-14" data-cursor="<%= t.cursor.open %>">
+        <div class="hero-mesh pointer-events-none absolute inset-0 opacity-70 transition-opacity duration-700 group-hover:opacity-100" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div class="relative grid gap-8 lg:grid-cols-12 lg:items-end">
+          <div class="lg:col-span-8">
+            <span class="bg-brand inline-block rounded-full px-3 py-1.5 font-mono text-[0.62rem] uppercase tracking-[0.14em] text-bone"><%= service360.teaser.eyebrow %></span>
+            <p class="display mt-8 text-[clamp(2.2rem,5vw,5rem)]"><%= service360.teaser.title %></p>
+            <p class="mt-5 max-w-xl text-lg text-fg/65"><%= service360.teaser.text %></p>
+          </div>
+          <div class="flex items-center gap-4 lg:col-span-4 lg:justify-end">
+            <span class="text-lg font-medium"><%= service360.teaser.cta %></span>
+            <span class="bg-brand grid h-14 w-14 place-items-center rounded-full text-bone transition-transform duration-700 ease-[var(--ease-expo)] group-hover:rotate-45 lg:h-16 lg:w-16" aria-hidden="true">↗</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================================================ CLIENTES (oscuro) -->
+  <section class="theme-dark bg-bg relative overflow-hidden" data-theme="dark" aria-label="<%= t.clients.eyebrow %>">
+    <div class="section-y">
+      <div class="container-x mb-12 flex items-end justify-between">
+        <p class="eyebrow">(04) — <%= t.clients.eyebrow %></p>
+        <a href="<%= url('works') %>" class="link-u hidden text-sm sm:inline-block"><%= t.clients.cta %> →</a>
+      </div>
+      <% const names = [...new Set(works.map(w => w.title.replace(/ —.*$/, '')))]; const half = Math.ceil(names.length / 2); %>
+      <% [names.slice(0, half), names.slice(half)].forEach((row, r) => { %>
+        <div class="mask-fade-x flex overflow-hidden py-3 <%= r ? 'marquee-reverse' : '' %>">
+          <div class="marquee-track flex w-max" style="--dur:<%= r ? 75 : 65 %>s">
+            <% for (let k = 0; k < 2; k++) { %>
+              <ul class="flex shrink-0 items-center" <%= k ? 'aria-hidden=true' : '' %>>
+                <% row.forEach(n => { %>
+                  <li class="flex items-center gap-8 pr-8 text-4xl font-medium tracking-tight sm:text-6xl lg:text-7xl">
+                    <span class="<%= r ? 'text-stroke text-fg/50' : 'text-fg/90' %> transition-colors duration-300 hover:text-accent"><%= n %></span>
+                    <span class="h-2.5 w-2.5 rounded-full bg-brand-400"></span>
+                  </li>
+                <% }) %>
+              </ul>
+            <% } %>
+          </div>
+        </div>
+      <% }) %>
+    </div>
+  </section>
+</main>
+
+<%- include('partials/footer') %>

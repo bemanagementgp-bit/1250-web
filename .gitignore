@@ -1,0 +1,10 @@
+node_modules/
+storage/
+.env
+
+# Originales descargados del sitio viejo (regenerables con npm run scrape)
+assets/raw/
+public/vendor/
+.vercel
+
+.claude/
